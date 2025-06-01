@@ -1,0 +1,515 @@
+## 1. Immutable Objects
+### Explanation
+An **immutable object** is an object whose state cannot be modified after creation. Once instantiated, its fields remain constant, ensuring thread-safety and reliability in concurrent or distributed systems. Immutable objects are widely used in Java (e.g., `String`, `Integer`, `LocalDate`) to prevent unintended modifications and simplify debugging.
+
+**Characteristics of Immutable Objects**:
+- All fields are `final` and initialized during object creation.
+- No setters or methods that modify the object’s state.
+- If fields are mutable objects (e.g., `List`), they are deeply copied or made unmodifiable.
+- The class is often `final` to prevent subclassing that could introduce mutability.
+- Thread-safe by design, as no state changes occur.
+
+**How to Create an Immutable Class**:
+1. Make the class `final`.
+2. Declare fields as `private` and `final`.
+3. Initialize fields via constructor only.
+4. Return deep copies of mutable fields in getters.
+5. Ensure methods do not modify internal state.
+
+**Why It’s Important**:
+Immutable objects are critical in banking applications (e.g., for transaction records) to ensure data integrity and thread-safety in multi-threaded environments.
+
+**Example**:
+```java
+final class ImmutableEmployee {
+    private final int id;
+    private final String name;
+    private final List<String> skills; // Mutable field
+
+    public ImmutableEmployee(int id, String name, List<String> skills) {
+        this.id = id;
+        this.name = name;
+        this.skills = new ArrayList<>(skills); // Deep copy to prevent external modification
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<String> getSkills() {
+        return new ArrayList<>(skills); // Return deep copy
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> skills = new ArrayList<>(Arrays.asList("Java", "SQL"));
+        ImmutableEmployee emp = new ImmutableEmployee(1, "Alice", skills);
+
+        // Try to modify skills
+        skills.add("Python");
+        emp.getSkills().add("Spring"); // Won't affect original
+
+        System.out.println(emp.getSkills()); // Output: [Java, SQL]
+    }
+}
+```
+**Interview Explanation**:  
+“An immutable object’s state cannot change after creation, like `String` or my `ImmutableEmployee` class. I make the class `final`, use `private final` fields, and ensure getters return deep copies of mutable fields like `List`. This ensures thread-safety and prevents external modifications, as shown when adding ‘Python’ to the input list doesn’t affect the object.”
+
+---
+
+## 2. Serialization
+### Explanation
+**Serialization** is the process of converting an object into a byte stream to save it to a file, database, or transmit it over a network. **Deserialization** reconstructs the object from the byte stream. In Java, serialization is achieved by implementing the `Serializable` interface. For immutable objects, serialization ensures the object’s state is preserved during transfer.
+
+**Key Points**:
+- Classes must implement `Serializable` (marker interface, no methods).
+- Fields marked `transient` are excluded from serialization.
+- For immutable objects, ensure deserialized objects maintain immutability (e.g., deep copy mutable fields).
+- Use `serialVersionUID` to control versioning during deserialization.
+- Serialization is common in distributed systems (e.g., banking APIs for data exchange).
+
+**Challenges with Immutable Objects**:
+- Ensure mutable fields (e.g., collections) are properly handled during serialization/deserialization to maintain immutability.
+- Avoid exposing internal state via serialization vulnerabilities.
+
+**Example**:
+```java
+import java.io.*;
+
+final class ImmutablePerson implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private final int id;
+    private final String name;
+    private final List<String> hobbies;
+
+    public ImmutablePerson(int id, String name, List<String> hobbies) {
+        this.id = id;
+        this.name = name;
+        this.hobbies = new ArrayList<>(hobbies);
+    }
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public List<String> getHobbies() { return new ArrayList<>(hobbies); }
+
+    // Custom deserialization to ensure immutability
+    private void readObject(ObjectInputStream ois) throws IOException, ClassNotFoundException {
+        ois.defaultReadObject();
+        // Re-create mutable field to prevent external modification
+        Field hobbiesField;
+        try {
+            hobbiesField = ImmutablePerson.class.getDeclaredField("hobbies");
+            hobbiesField.setAccessible(true);
+            hobbiesField.set(this, new ArrayList<>((List<String>) hobbiesField.get(this)));
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            throw new IOException("Deserialization failed", e);
+        }
+    }
+}
+
+public class SerializationDemo {
+    public static void main(String[] args) throws Exception {
+        List<String> hobbies = new ArrayList<>(Arrays.asList("Reading", "Gaming"));
+        ImmutablePerson person = new ImmutablePerson(1, "Bob", hobbies);
+
+        // Serialize
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.ser"));
+        oos.writeObject(person);
+        oos.close();
+
+        // Deserialize
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("person.ser"));
+        ImmutablePerson deserialized = (ImmutablePerson) ois.readObject();
+        ois.close();
+
+        System.out.println(deserialized.getHobbies()); // Output: [Reading, Gaming]
+        hobbies.add("Swimming"); // Won't affect deserialized object
+        System.out.println(deserialized.getHobbies()); // Output: [Reading, Gaming]
+    }
+}
+```
+**Interview Explanation**:  
+“Serialization converts an object to a byte stream for storage or transmission, as shown in my `ImmutablePerson` example. By implementing `Serializable` and defining `serialVersionUID`, I ensure consistent deserialization. For immutability, I use a custom `readObject` method to deep-copy mutable fields like `hobbies`, preventing external changes post-deserialization.”
+
+---
+
+## 3. Cloning
+### Explanation
+**Cloning** creates a copy of an object. In Java, it’s achieved by implementing the `Cloneable` interface and overriding the `clone()` method from `Object`. Cloning is useful when you need a new instance with the same state, but it can be **shallow** or **deep** depending on the copy mechanism.
+
+**Key Points**:
+- **Cloneable Interface**: A marker interface indicating the object can be cloned.
+- Override `clone()` to call `super.clone()` and handle copying.
+- For immutable objects, cloning may be less critical since their state is fixed, but it’s useful for creating independent instances.
+- Cloning is an alternative to serialization for copying objects within the same JVM.
+
+**Challenges**:
+- Default cloning is shallow, which may not suit immutable objects with mutable fields.
+- Ensure immutability by deep-copying mutable fields in the `clone()` method.
+
+**Example**:
+```java
+class ImmutableStudent implements Cloneable {
+    private final int id;
+    private final String name;
+    private final List<String> courses;
+
+    public ImmutableStudent(int id, String name, List<String> courses) {
+        this.id = id;
+        this.name = name;
+        this.courses = new ArrayList<>(courses);
+    }
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public List<String> getCourses() { return new ArrayList<>(courses); }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        ImmutableStudent cloned = (ImmutableStudent) super.clone();
+        // Deep copy mutable field
+        Field coursesField;
+        try {
+            coursesField = ImmutableStudent.class.getDeclaredField("courses");
+            coursesField.setAccessible(true);
+            coursesField.set(cloned, new ArrayList<>((List<String>) coursesField.get(cloned)));
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            throw new CloneNotSupportedException("Cloning failed");
+        }
+        return cloned;
+    }
+}
+
+public class CloningDemo {
+    public static void main(String[] args) throws CloneNotSupportedException {
+        List<String> courses = new ArrayList<>(Arrays.asList("Math", "Science"));
+        ImmutableStudent student = new ImmutableStudent(1, "Charlie", courses);
+        ImmutableStudent cloned = (ImmutableStudent) student.clone();
+
+        courses.add("History"); // Won't affect cloned object
+        cloned.getCourses().add("Art"); // Won't affect original
+
+        System.out.println(student.getCourses()); // Output: [Math, Science]
+        System.out.println(cloned.getCourses()); // Output: [Math, Science, Art]
+    }
+}
+```
+**Interview Explanation**:  
+“Cloning creates a copy of an object using the `Cloneable` interface and `clone()` method. For my `ImmutableStudent` class, I override `clone()` to deep-copy the mutable `courses` list, ensuring the cloned object is independent. This maintains immutability, as changes to the original or cloned list don’t affect each other.”
+
+---
+
+## 4. Deep Copy vs. Shallow Copy
+### Explanation
+- **Shallow Copy**: Copies an object’s fields, but for reference types (e.g., objects, collections), it copies references, not the objects themselves. Both original and copy point to the same referenced objects, so changes to them affect both.
+- **Deep Copy**: Creates a fully independent copy of an object, including all referenced objects. Changes to the copy do not affect the original, and vice versa. Deep copy is essential for immutable objects to prevent unintended modifications.
+
+**Key Differences**:
+| **Aspect**         | **Shallow Copy**                          | **Deep Copy**                            |
+|--------------------|-------------------------------------------|------------------------------------------|
+| **Definition**     | Copies fields, references point to same objects | Copies fields and referenced objects     |
+| **Implementation** | Default `clone()` or manual field copy    | Custom cloning/serialization with copying |
+| **Performance**    | Faster, less memory                       | Slower, more memory                      |
+| **Use Case**       | Simple objects with no mutable fields     | Complex objects requiring independence   |
+
+**Challenges**:
+- Shallow copy can break immutability if mutable fields are shared.
+- Deep copy requires careful implementation to handle nested objects.
+
+**Example**:
+```java
+class Student {
+    private int id;
+    private String name;
+    private List<String> subjects;
+
+    public Student(int id, String name, List<String> subjects) {
+        this.id = id;
+        this.name = name;
+        this.subjects = subjects;
+    }
+
+    // Shallow copy
+    public Student shallowCopy() {
+        return new Student(id, name, subjects); // Shares same subjects list
+    }
+
+    // Deep copy
+    public Student deepCopy() {
+        return new Student(id, name, new ArrayList<>(subjects)); // Independent list
+    }
+
+    public List<String> getSubjects() { return subjects; }
+}
+
+public class CopyDemo {
+    public static void main(String[] args) {
+        List<String> subjects = new ArrayList<>(Arrays.asList("Math", "Science"));
+        Student original = new Student(1, "Dave", subjects);
+
+        // Shallow copy
+        Student shallow = original.shallowCopy();
+        subjects.add("History");
+        System.out.println("Shallow: " + shallow.getSubjects()); // Output: [Math, Science, History]
+
+        // Deep copy
+        Student deep = original.deepCopy();
+        subjects.add("Art");
+        System.out.println("Deep: " + deep.getSubjects()); // Output: [Math, Science, History]
+    }
+}
+```
+**Interview Explanation**:  
+“A shallow copy duplicates an object but shares references to mutable fields, so changes to the original’s `subjects` list affect the shallow copy. A deep copy creates an independent copy of all fields, as shown in my `deepCopy()` method, ensuring changes to the original don’t impact the copy. This is crucial for immutability.”
+
+---
+
+## Key Points for Interview
+- **Immutable Objects**: Highlight their role in thread-safety and data integrity, especially in banking systems where consistent data (e.g., transactions) is critical.
+- **Serialization**: Emphasize its use in distributed systems (e.g., APIs) and how you ensure immutability during deserialization.
+- **Cloning**: Explain the need for deep copying in immutable objects to avoid shared mutable state.
+- **Deep vs. Shallow Copy**: Clarify the performance trade-offs and their impact on immutability, using examples to show independence.
+
+### 1. **Lambda Expressions**
+**Explanation**: Lambda expressions introduce functional programming by allowing you to treat functions as first-class citizens. They provide a concise way to represent anonymous functions (implementations of functional interfaces) using a compact syntax.
+
+**Key Points**:
+- Syntax: `(parameters) -> expression` or `(parameters) -> { statements; }`
+- Used with functional interfaces (interfaces with a single abstract method).
+- Eliminates boilerplate code for anonymous classes.
+
+**Example**:
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+
+        // Before Java 8: Anonymous class
+        names.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String name) {
+                System.out.println(name);
+            }
+        });
+
+        // Java 8: Lambda expression
+        names.forEach(name -> System.out.println(name));
+    }
+}
+```
+**Interview Tip**: Be ready to explain how lambdas improve code readability and their use with collections (e.g., `forEach`, sorting).
+
+---
+
+### 2. **Stream API**
+**Explanation**: The Stream API enables functional-style operations on collections, allowing bulk data processing with operations like `filter`, `map`, `reduce`, and `collect`. It supports both sequential and parallel processing.
+
+**Key Points**:
+- Streams are not data structures; they are a pipeline of operations.
+- Intermediate operations (e.g., `filter`, `map`) are lazy; terminal operations (e.g., `collect`, `forEach`) trigger execution.
+- Enhances parallelism with `parallelStream()`.
+
+**Example**:
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamExample {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
+
+        // Filter even numbers, double them, and collect to a list
+        List<Integer> result = numbers.stream()
+                .filter(n -> n % 2 == 0) // Intermediate: Filter even numbers
+                .map(n -> n * 2)         // Intermediate: Double the numbers
+                .collect(Collectors.toList()); // Terminal: Collect to list
+
+        System.out.println(result); // Output: [4, 8, 12]
+    }
+}
+```
+**Interview Tip**: Be prepared to write a Stream pipeline to solve problems like filtering, mapping, or grouping data. Explain the difference between sequential and parallel streams.
+
+---
+
+### 3. **Functional Interfaces**
+**Explanation**: A functional interface is an interface with exactly one abstract method (SAM - Single Abstract Method). Lambda expressions can implement these interfaces. Java 8 introduced several built-in functional interfaces in the `java.util.function` package, like `Predicate`, `Function`, `Consumer`, and `Supplier`.
+
+**Key Points**:
+- Annotated with `@FunctionalInterface` to ensure a single abstract method.
+- Enables lambda expressions and method references.
+- Common interfaces: `Predicate<T>`, `Function<T, R>`, `Consumer<T>`, `Supplier<T>`.
+
+**Example**:
+```java
+import java.util.function.Predicate;
+
+public class FunctionalInterfaceExample {
+    public static void main(String[] args) {
+        // Predicate functional interface using lambda
+        Predicate<Integer> isEven = n -> n % 2 == 0;
+
+        System.out.println(isEven.test(4)); // Output: true
+        System.out.println(isEven.test(7)); // Output: false
+    }
+}
+```
+**Interview Tip**: Know the purpose of common functional interfaces and how they’re used with Streams or lambdas. Be ready to create a custom functional interface.
+
+---
+
+### 4. **Default Methods in Interfaces**
+**Explanation**: Default methods allow interfaces to have method implementations, enabling backward compatibility when adding new methods to existing interfaces. They are marked with the `default` keyword.
+
+**Key Points**:
+- Classes implementing the interface inherit the default method but can override it.
+- Solves the problem of modifying interfaces without breaking existing implementations.
+- Can lead to the "diamond problem" if multiple interfaces provide conflicting default methods.
+
+**Example**:
+```java
+interface Vehicle {
+    default void startEngine() {
+        System.out.println("Engine started");
+    }
+}
+
+class Car implements Vehicle {
+    // Optionally override default method
+    @Override
+    public void startEngine() {
+        System.out.println("Car engine started with a roar!");
+    }
+}
+
+public class DefaultMethodExample {
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.startEngine(); // Output: Car engine started with a roar!
+    }
+}
+```
+**Interview Tip**: Explain how default methods help with API evolution and how to resolve conflicts using the `super` keyword (e.g., `InterfaceName.super.method()`).
+
+---
+
+### 5. **Optional Class**
+**Explanation**: The `Optional<T>` class helps handle null values more safely, reducing `NullPointerException` risks. It encourages explicit handling of cases where a value may or may not be present.
+
+**Key Points**:
+- Methods like `of`, `ofNullable`, `orElse`, `ifPresent`, and `orElseThrow` manage optional values.
+- Not meant to be used as a method parameter or field type, but for return types.
+
+**Example**:
+```java
+import java.util.Optional;
+
+public class OptionalExample {
+    public static void main(String[] args) {
+        String name = null;
+
+        // Using Optional to handle null
+        Optional<String> optionalName = Optional.ofNullable(name);
+
+        // Provide default value if null
+        String result = optionalName.orElse("Unknown");
+        System.out.println(result); // Output: Unknown
+
+        // Using ifPresent
+        optionalName.ifPresent(n -> System.out.println("Name is: " + n));
+
+        // Non-null case
+        Optional<String> nonNullName = Optional.of("Alice");
+        System.out.println(nonNullName.get()); // Output: Alice
+    }
+}
+```
+**Interview Tip**: Be ready to explain why `Optional` is better than null checks and demonstrate its use in chaining operations or avoiding `NullPointerException`.
+
+---
+
+### 6. **Date and Time API**
+**Explanation**: Java 8 introduced a new Date and Time API (`java.time` package) to replace the flawed `java.util.Date` and `java.util.Calendar`. It provides immutable, thread-safe classes like `LocalDate`, `LocalTime`, `LocalDateTime`, and `ZonedDateTime`.
+
+**Key Points**:
+- `LocalDate`: Represents a date (e.g., 2025-05-28).
+- `LocalTime`: Represents a time (e.g., 18:10:00).
+- `LocalDateTime`: Combines date and time.
+- `ZonedDateTime`: Handles time zones.
+- Methods like `plusDays`, `minusMonths`, and `isBefore` simplify date/time manipulation.
+
+**Example**:
+```java
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class DateTimeExample {
+    public static void main(String[] args) {
+        // Get current date
+        LocalDate today = LocalDate.now();
+        System.out.println("Today: " + today); // Output: Today: 2025-05-28
+
+        // Add 10 days
+        LocalDate futureDate = today.plusDays(10);
+        System.out.println("Future Date: " + futureDate); // Output: Future Date: 2025-06-07
+
+        // Format date
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        System.out.println("Formatted: " + today.format(formatter)); // Output: Formatted: 28-05-2025
+
+        // LocalDateTime with time
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println("Now: " + now); // Output: Now: 2025-05-28T18:10:00.123
+    }
+}
+```
+**Interview Tip**: Compare the new API with `java.util.Date` and explain its immutability and thread-safety. Be ready to write code for date calculations or formatting.
+
+---
+
+### Additional Java 8 Features (Less Common in Interviews)
+- **Method References**: Shorthand for lambda expressions (e.g., `System.out::println`).
+- **forEach**: Simplifies iteration over collections.
+- **CompletableFuture**: For asynchronous programming.
+- **Nashorn JavaScript Engine**: For running JavaScript in Java (deprecated in later versions).
+
+---
+
+### Common Interview Questions
+1. **What’s the difference between `map` and `flatMap` in Streams?**
+   - `map`: Transforms each element to one output (1:1).
+   - `flatMap`: Flattens nested structures (e.g., `List<List<T>>` to `List<T>`).
+   - **Example**:
+     ```java
+     List<List<Integer>> nested = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4));
+     List<Integer> flat = nested.stream()
+             .flatMap(List::stream)
+             .collect(Collectors.toList());
+     System.out.println(flat); // Output: [1, 2, 3, 4]
+     ```
+
+2. **How do you handle multiple inheritance with default methods?**
+   - Use `InterfaceName.super.method()` to specify which default method to call.
+   - **Example**:
+     ```java
+     interface A { default void say() { System.out.println("A"); } }
+     interface B { default void say() { System.out.println("B"); } }
+     class C implements A, B {
+         @Override
+         public void say() { A.super.say(); } // Calls A's method
+     }
+     ```
+
+3. **Why use Optional instead of null checks?**
+   - `Optional` forces explicit handling of absent values, reducing `NullPointerException` risks.
