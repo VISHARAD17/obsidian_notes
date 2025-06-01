@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           }
         ]
@@ -171,7 +171,7 @@
   "active": "d0e1dad3b4b3dd56",
   "lastOpenFiles": [
     "System Design/system-design-concepts/1. Scalability.md",
-    "README.md.md",
+    "README.md",
     "Design_pattern/1. Singleton Pattern.md",
     "Design_pattern",
     "System Design/system-design-problems/1. Spotify System Design.md",
