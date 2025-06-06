@@ -1,3 +1,4 @@
+#spring #java #interview 
 ### 2. Question: What are class loaders?
 "Class loaders are a component of the JRE responsible for dynamically loading Java classes into memory during runtime. They follow a delegation model where a class loader first delegates the loading request to its parent before attempting to load the class itself. The three main types are:  
 1. **Bootstrap Class Loader**: Loads core Java classes from `rt.jar` (e.g., `java.lang.*`).  

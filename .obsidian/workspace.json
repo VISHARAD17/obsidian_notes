@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b5ceeafbfebcc3c3",
+        "id": "0d72061ff88d2391",
         "type": "tabs",
         "children": [
           {
-            "id": "d0e1dad3b4b3dd56",
+            "id": "9b469b7c5a7818bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "TODO/Weekly TODO.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Weekly TODO"
             }
           }
         ]
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#HLD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 278.5
   },
   "right": {
     "id": "a4d712a6ec2540e7",
@@ -88,25 +89,6 @@
         "id": "a0a2ac60b0350b3d",
         "type": "tabs",
         "children": [
-          {
-            "id": "16fa50d1a2e28d1f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "DSA/1. Arrays.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 1. Arrays"
-            }
-          },
           {
             "id": "5ae330a0bc184308",
             "type": "leaf",
@@ -148,8 +130,19 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "1d80f1cd14b9f6cf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,45 +161,47 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d0e1dad3b4b3dd56",
+  "active": "9b469b7c5a7818bc",
   "lastOpenFiles": [
-    "System Design/system-design-concepts/1. Scalability.md",
-    "README.md",
-    "Design_pattern/1. Singleton Pattern.md",
-    "Design_pattern",
-    "System Design/system-design-problems/1. Spotify System Design.md",
-    "System Design/excel-drawings/spotify.excalidraw.md",
-    "System Design/excel-drawings/test-diagram.excalidraw.md",
-    "Excalidraw",
-    "Interview Notes/IDFC interview overview.md",
-    "Interview Notes/Java Interview questions from youtube.md",
-    "SQL.md",
-    "Excalidraw/Drawing 2025-06-01 08.57.07.excalidraw.md",
-    "System Design/excel-drawings/test-diagram.excalidraw",
-    "System Design/excel-drawings",
-    "Untitled 1",
-    "Excalidraw/Drawing 2025-06-01 08.55.59.excalidraw.md",
-    "System Design/system-design-problems",
-    "System Design/system-design-concepts/Untitled",
-    "System Design/system-design-concepts",
-    "Interview Notes/More Java.md",
-    "Interview Notes/More spring Java Microservices.md",
-    "Interview Notes/Spring boot interview.md",
-    "Interview Notes/React + JavaScript.md",
+    "TODO/DBMS todo.md",
+    "Core Java/1. Core Java.md",
     "Interview Notes/Frq asked spring boot questions.md",
     "Interview Notes/Payment Service.md",
+    "Interview Notes/More spring Java Microservices.md",
+    "Interview Notes/React + JavaScript.md",
+    "Interview Notes/Spring boot interview.md",
     "Interview Notes/Untitled.md",
-    "Spring Boot.md",
-    "Interview Notes",
-    "DSA/1. Arrays.md",
-    "Untitled 1.canvas",
-    "DSA",
+    "Core Java/3. More Java.md",
+    "Core Java/2. Java Interview questions from youtube.md",
+    "Core Java",
+    "System Design/system-design-problems/1. Spotify System Design.md",
+    "LLD/Design Elevator.md",
+    "LLD/Design StackOverflow.md",
+    "Amex JD.md",
+    "tmp.md",
+    "README.md",
+    "Interview Notes/IDFC interview overview.md",
+    "Design_pattern/1.Singleton Pattern.md",
+    "System Design/system-design-concepts/2. SQL vs NoSQL.md",
+    "System Design/system-design-concepts/1. Scalability.md",
+    "OOP/Object Oriented Programming.md",
+    "TODO/Weekly TODO.md",
+    "LLD/LLD.md",
+    "DBMS/README.md",
+    "TODO",
+    "System Design/System Design.md",
+    "System Design/system-design-problems/2. Design WhatsApp.md",
     "Untitled.canvas",
-    "picturere.md",
-    "2025-05-13.md",
+    "Untitled 1.canvas",
+    "Excalidraw",
+    "DBMS",
+    "System Design/Untitled",
+    "LLD",
+    "OOP",
+    "Design_pattern",
+    "System Design/excel-drawings/test-diagram.excalidraw",
+    "System Design/excel-drawings",
     "Untitled 2.canvas",
-    "2025-05-01.md",
-    "Untitled 3.canvas",
-    "System Design.md"
+    "Untitled 3.canvas"
   ]
 }

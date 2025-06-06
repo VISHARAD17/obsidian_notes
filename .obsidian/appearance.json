@@ -1,6 +1,13 @@
 {
-  "accentColor": "#000000",
+  "accentColor": "",
   "theme": "moonstone",
   "cssTheme": "",
-  "translucency": true
+  "translucency": false,
+  "baseFontSize": 15,
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "enabledCssSnippets": [
+    "customCss"
+  ]
 }
