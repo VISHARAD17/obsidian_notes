@@ -399,7 +399,7 @@
     "baseTheme": "Obsidian",
     "settings": {
       "codeblock": {
-        "enableLineNumbers": true,
+        "enableLineNumbers": false,
         "enableActiveLineHighlight": true,
         "codeBlockBorderStylingPosition": "disable",
         "showIndentationLines": false,

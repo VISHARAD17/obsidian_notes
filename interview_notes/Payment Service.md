@@ -4,14 +4,14 @@ The transcript provides a comprehensive overview of designing and implementing a
 
 ## Analysis of the Transcript
 
-### 1. **Overview of E-commerce Payment Systems**
+### 1.Overview of E-commerce Payment Systems
 The transcript begins by highlighting the growth of e-commerce and the critical role of payment systems in facilitating online transactions. A payment system ensures secure, reliable, and scalable money transfers between customers and merchants. Key challenges include:
 - **Reliability**: Ensuring transactions are processed correctly without errors.
 - **Availability**: Minimizing downtime to avoid revenue loss.
 - **Scalability**: Handling large volumes of transactions as the business grows.
 - **Security**: Complying with regulations like PCI DSS and GDPR to protect sensitive data.
 
-### 2. **High-Level Payment System Workflow**
+### 2. High-Level Payment System Workflow
 The payment process involves multiple entities:
 - **Customer**: Initiates a transaction by placing an order and providing payment details.
 - **Merchant**: Hosts the e-commerce platform and integrates with a payment system.
@@ -35,7 +35,7 @@ The payment process involves multiple entities:
 ### 4. **Using a Payment Service Provider (PSP)**
 Most e-commerce platforms use PSPs to simplify payment processing. PSPs handle compliance, store sensitive card data, and provide payment forms, reducing the burden on merchants. Direct connections to banks or card schemes are complex due to regulatory requirements and are less common. ex. stripe, paypal
 
-### 5. **System Design Components**
+### 5. System Design Components
 The transcript outlines a payment system architecture with the following components:
 - **Payment Service**: Coordinates the payment process, interacts with the PSP, and updates internal services.
 - **Database**: Stores payment events, wallet balances, and ledger records.
@@ -44,7 +44,7 @@ The transcript outlines a payment system architecture with the following compone
 - **PSP Integration**: Handles communication with external PSPs for payment processing.
 - **Messaging Queue (e.g., Kafka)**: Ensures reliable message delivery between services.
 
-### 6. **Communication Patterns**
+### 6. Communication Patterns
 - **Synchronous Communication**: A service waits for a response before proceeding. This is suitable for real-time scenarios (e.g., physical store payments) but is prone to cascading failures if a service is down or slow.
 - **Asynchronous Communication**: Services do not wait for responses, using queues like Kafka to buffer requests. This is preferred for large-scale systems due to loose coupling, fault tolerance, and scalability.
 

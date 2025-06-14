@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "87dee1656c226d59",
+        "id": "689e894e3069a591",
         "type": "tabs",
         "children": [
           {
-            "id": "9d0707dcc9db468d",
+            "id": "fda012e86d230a35",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-06-12 03.00.59.excalidraw.md"
+                "file": "interview_notes/Payment Service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-12 03.00.59.excalidraw"
+              "icon": "lucide-file",
+              "title": "Payment Service"
             }
           }
         ]
@@ -51,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#creationalPattern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "right": {
     "id": "a4d712a6ec2540e7",
@@ -128,19 +130,9 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "1d80f1cd14b9f6cf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -155,49 +147,50 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "9d0707dcc9db468d",
+  "active": "fda012e86d230a35",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-06-12 03.00.59.excalidraw.md",
-    "Untitled.md",
-    "tmp.md",
-    "Interview Notes/Frq asked spring boot questions.md",
-    "Core Java/2. Java Interview questions from youtube.md",
-    "Core Java/3. More Java.md",
-    "Core Java/4. Stream Java.md",
-    "Core Java/5. More Java 2.md",
-    "Core Java/6. Java Thread.md",
-    "Core Java/7. Must read link.md",
-    "Interview Notes/Spring boot interview.md",
-    "Interview Notes/React + JavaScript.md",
-    "Core Java/1. Core Java.md",
+    "design_patterns/1 creational_pattern/1.1 singleton_pattern.md",
+    "interview_notes/Payment Service.md",
+    "design_patterns/1 creational_pattern/1.2 factory_pattern.md",
+    "TODOs.md",
+    "interview_notes/Frq asked spring boot questions.md",
+    "design_patterns/2 structoral_pattern",
+    "design_patterns/1 creational_pattern",
+    "DSA",
+    "java/2. Java Interview questions from youtube.md",
+    "java/3. More Java.md",
+    "java/1. Core Java.md",
+    "java/7. Must read link.md",
+    "java/Main.java",
+    "design_patterns/Untitled.md",
+    "core_cs_concepts/dbms/something.md",
+    "Excalidraw/Drawing 2025-06-14 09.52.14.excalidraw.md",
+    "Excalidraw",
+    "system_design/system_design_problems/2. Design WhatsApp.md",
+    "system_design/system_design_problems/1. Spotify System Design.md",
+    "system_design/excel-drawings/spotify.excalidraw.md",
     "TODO/TODO.md",
-    "README.md",
     "TODO/DBMS todo.md",
-    "Interview Notes/Payment Service.md",
-    "Interview Notes/Untitled.md",
-    "Core Java",
-    "System Design/system-design-problems/1. Spotify System Design.md",
-    "LLD/Design Elevator.md",
-    "LLD/Design StackOverflow.md",
+    "tmp.md",
+    "2025-06-03.md",
+    "README.md",
     "Amex JD.md",
-    "Interview Notes/IDFC interview overview.md",
-    "Design_pattern/1.Singleton Pattern.md",
-    "System Design/system-design-concepts/2. SQL vs NoSQL.md",
-    "System Design/system-design-concepts/1. Scalability.md",
-    "TODO",
+    "system_design/System Design.md",
+    "Excalidraw/Drawing 2025-06-12 03.00.59.excalidraw.md",
+    "System Design/HLD",
+    "core_cs_concepts/computer_networks",
+    "core_cs_concepts/dbms/Untitled",
+    "core_cs_concepts/dbms",
+    "core_cs_concepts/Untitled.md",
+    "core_cs_concepts/operating_system",
+    "java/4. Stream Java.md",
+    "java/5. More Java 2.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Excalidraw",
-    "DBMS",
-    "System Design/Untitled",
-    "LLD",
-    "OOP",
-    "Design_pattern",
-    "System Design/excel-drawings/test-diagram.excalidraw",
-    "System Design/excel-drawings",
     "Untitled 2.canvas",
     "Untitled 3.canvas"
   ]

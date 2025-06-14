@@ -1,5 +1,0 @@
-#todo
-
-- [ ] something
-- [ ] something
-- [ ] something

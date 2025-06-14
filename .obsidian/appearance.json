@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "",
   "translucency": false,
   "baseFontSize": 15,
@@ -9,5 +9,7 @@
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "enabledCssSnippets": [
     "customCss"
-  ]
+  ],
+  "baseFontSizeAction": false,
+  "nativeMenus": true
 }
