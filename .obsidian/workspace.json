@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "689e894e3069a591",
+        "id": "60363528d7feb35c",
         "type": "tabs",
         "children": [
           {
-            "id": "fda012e86d230a35",
+            "id": "411894bea6ae4e83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview_notes/Payment Service.md",
+                "file": "system_design/system_design_concepts/Scalability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Payment Service"
+              "title": "Scalability"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#creationalPattern",
+                "query": "tag:#HLD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,12 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "java/1. Core Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1. Core Java"
             }
           }
         ],
@@ -146,49 +147,47 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fda012e86d230a35",
+  "active": "411894bea6ae4e83",
   "lastOpenFiles": [
-    "design_patterns/1 creational_pattern/1.1 singleton_pattern.md",
-    "interview_notes/Payment Service.md",
-    "design_patterns/1 creational_pattern/1.2 factory_pattern.md",
-    "TODOs.md",
+    "system_design/System Design.md",
+    "java/1. Core Java.md",
+    "java/2. Java Interview questions from youtube.md",
+    "interview_notes/React + JavaScript.md",
+    "java/7. Must read link.md",
+    "design_patterns/1 creational_pattern/Singleton Pattern.md",
+    "design_patterns/1 creational_pattern/Builder Pattern.md",
+    "design_patterns/1 creational_pattern/Factory Pattern.md",
+    "design_patterns/1 creational_pattern/Observer_pattern.md",
+    "design_patterns/Design Patterns.md",
+    "Excalidraw/Drawing 2025-06-25 23.55.05.excalidraw.md",
+    "system_design/system_design_problems/1. Spotify System Design.md",
+    "system_design/lld/Design Elevator.md",
+    "system_design/system_design_concepts/Scalability.md",
+    "system_design/excel-drawings/test-diagram.excalidraw.md",
+    "system_design/excel-drawings/spotify.excalidraw.md",
+    "system_design/system_design_concepts/2. SQL vs NoSQL.md",
+    "java/4. Stream Java.md",
+    "java/3. More Java.md",
+    "interview_notes/Spring boot interview.md",
     "interview_notes/Frq asked spring boot questions.md",
+    "interview_notes/Payment Service.md",
+    "TODOs.md",
+    "DSA/README.md",
+    "WhishList ( within next 2 years ).md",
+    "system_design/building_blocks/Top 15 tradeoffs.md",
+    "system_design/building_blocks",
     "design_patterns/2 structoral_pattern",
     "design_patterns/1 creational_pattern",
     "DSA",
-    "java/2. Java Interview questions from youtube.md",
-    "java/3. More Java.md",
-    "java/1. Core Java.md",
-    "java/7. Must read link.md",
     "java/Main.java",
-    "design_patterns/Untitled.md",
-    "core_cs_concepts/dbms/something.md",
-    "Excalidraw/Drawing 2025-06-14 09.52.14.excalidraw.md",
     "Excalidraw",
-    "system_design/system_design_problems/2. Design WhatsApp.md",
-    "system_design/system_design_problems/1. Spotify System Design.md",
-    "system_design/excel-drawings/spotify.excalidraw.md",
-    "TODO/TODO.md",
-    "TODO/DBMS todo.md",
-    "tmp.md",
-    "2025-06-03.md",
-    "README.md",
-    "Amex JD.md",
-    "system_design/System Design.md",
-    "Excalidraw/Drawing 2025-06-12 03.00.59.excalidraw.md",
     "System Design/HLD",
     "core_cs_concepts/computer_networks",
     "core_cs_concepts/dbms/Untitled",
     "core_cs_concepts/dbms",
-    "core_cs_concepts/Untitled.md",
-    "core_cs_concepts/operating_system",
-    "java/4. Stream Java.md",
-    "java/5. More Java 2.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

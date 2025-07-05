@@ -1,27 +1,6 @@
 #LLD
 
-Link : 
-###### Class Diagram:
-**Elevator**
-```java
-class Elevator(){
-	private Static Elevator instance;
-	private List<Request> requests;
+Link : [github](www.google.com)
+#### Class Diagram:
 
-	// methods
-	getSomething(){
-		// does something	
-	}
-}
-```
-
-**Request**
-```java
-class Request{
-	int source;
-	int destination;
-}	
-```
-
-
-``
+![[Drawing 2025-06-25 23.55.05.excalidraw]]

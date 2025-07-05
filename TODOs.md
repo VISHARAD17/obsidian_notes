@@ -10,5 +10,9 @@
 	- [ ] abstract
 	- [ ] Inheritance
 	- [ ] Polymorphism
-- [ ] Morr F 5% 0.1%
+
+
+##### Typescript
+- [ ] basics
+- [ ] 
 

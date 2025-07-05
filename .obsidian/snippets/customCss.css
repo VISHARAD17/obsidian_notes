@@ -5,26 +5,34 @@ body {
 /* Inline code: background and font color */
 :not(pre) > code,
 .cm-inline-code {
-  background-color: #3f3f3f !important; /* Your background color */
-  color: #f2e9e4 !important;            /* Your font color */
+  background-color: #e3e2de !important; /* Your background color */
+  color: #000000 !important;            /* Your font color */
   border-radius: 4px;
   padding: 2px 4px;
-  font-size: 0.95em;
+  font-size: 1em;
   font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
 }
 
-/* Heading colors */
-.cm-header-1, .markdown-preview-view h1, .markdown-rendered h1 { color: #d6336c; }
-.cm-header-2, .markdown-preview-view h2, .markdown-rendered h2 { color: #56DFCF; }
-.cm-header-3, .markdown-preview-view h3, .markdown-rendered h3 { color: #228be6; }
-.cm-header-4, .markdown-preview-view h4, .markdown-rendered h4 { color: #98CD00; }
-.cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #725CAD; }
-.cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #868e96; }
 
-/* color for bold fonts */
-strong,
+/* Heading colors - dark background */
+/* .cm-header-1, .markdown-preview-view h1, .markdown-rendered h1 { color: #d6336c; } */
+/* .cm-header-2, .markdown-preview-view h2, .markdown-rendered h2 { color: #56DFCF; } */
+/* .cm-header-3, .markdown-preview-view h3, .markdown-rendered h3 { color: #228be6; } */
+/* .cm-header-4, .markdown-preview-view h4, .markdown-rendered h4 { color: #98CD00; } */
+/* .cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #725CAD; } */
+/* .cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #868e96; } */
+
+/* heading colors for white background */
+/* .cm-header-1, .markdown-preview-view h1, .markdown-rendered h1 { color: #b8003c; }   /* Deep Rose */ */
+/* .cm-header-2, .markdown-preview-view h2, .markdown-rendered h2 { color: #00bfae; }   /* Teal */ */
+/* .cm-header-3, .markdown-preview-view h3, .markdown-rendered h3 { color: #1565c0; }   /* Blue */ */
+/* .cm-header-4, .markdown-preview-view h4, .markdown-rendered h4 { color: #7cb518; }   /* Green */ */
+/* .cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #6c4fbb; }   /* Purple */ */
+/* .cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #6c757d; }   /* Gray */ */
+/* Make bold text bolder */
+strong, b,
 .cm-strong {
-  color: #F2C078 /* Choose your preferred color */
+  font-weight: 1500 !important; /* You can increase to 800 or 900 if you want it even bolder */
 }
 
 /* no callout button */
