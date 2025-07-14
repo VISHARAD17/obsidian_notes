@@ -19,9 +19,3 @@
 - **Sharding / partitioning**: Sharding is basically splitting the data to multiple DB servers. Cutting table horizontal to split the data.
 - **Asynchronous communication**: this means doing long running tasks or non-critical tasks in background or via message brokers. This ensures that main server remains responsive to users.
 - **Micro-service architecture**: This architecture breaks down the application into smaller and independent service, which can be scaled independently. 
-
-
-
-
-
-

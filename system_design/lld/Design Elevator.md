@@ -1,6 +1,19 @@
 #LLD
 
-Link : [github](www.google.com)
-#### Class Diagram:
+Link : [github](All%20Notes.md)
+### Elevator class
+```java
+Class Elevator{
+	private String elevator;
+	private String director
+}
+```
 
-![[Drawing 2025-06-25 23.55.05.excalidraw]]
+### Direction ( ENUM )
+```java
+ENUM Direction{
+	UP,
+	DOWN
+}
+```
+

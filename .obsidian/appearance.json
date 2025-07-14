@@ -1,15 +1,17 @@
 {
-  "accentColor": "#1171ee",
+  "accentColor": "#3843d6",
   "theme": "moonstone",
   "cssTheme": "",
   "translucency": false,
-  "baseFontSize": 15,
+  "baseFontSize": 17,
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Apple Braille",
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "enabledCssSnippets": [
     "customCss"
   ],
   "baseFontSizeAction": false,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "showRibbon": false,
+  "showViewHeader": false
 }

@@ -1,6 +1,14 @@
-### Key concepts 
+
+--- start-multi-column: ID_1fca
+```column-settings
+Number of Columns: 3
+Largest Column: standard
+Shadow: disabled
+```
+
+### <mark class="hltr-green">Concepts</mark>
 - [[Scalability]]
-- Availability
+- [[Availability]]
 - CAP
 - ACID
 - Consistent Hashing
@@ -14,19 +22,23 @@
 - Disaster Recovery
 - Distributed Tracing
 
-### Building blocks
-- APIs
+--- column-break ---
 
-### TradeOffs
-- Top 15 tradeoffs
-
-### Design Problems:
-- [[1. Spotify System Design]]
-- [[2. Design WhatsApp]]
+### <mark class="hltr-red">Design Problems</mark>
+- [[Spotify System Design]]
+- [[Design WhatsApp]]
 - whatapp
 - twitter
 - youtube
 - notification system
 - Uber
 - Dropbox
+
+
+--- column-break ---
+
+### <mark class="hltr-cyan">LLD Problems</mark>
+- [[Design ATM]]
+
+--- end-multi-column
 
