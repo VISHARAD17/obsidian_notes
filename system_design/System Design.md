@@ -9,7 +9,7 @@ Shadow: disabled
 ### <mark class="hltr-green">Concepts</mark>
 - [[Scalability]]
 - [[Availability]]
-- CAP
+- [[CAP theorem]]
 - ACID
 - Consistent Hashing
 - Rate limiting
@@ -34,11 +34,12 @@ Shadow: disabled
 - Uber
 - Dropbox
 
-
 --- column-break ---
 
 ### <mark class="hltr-cyan">LLD Problems</mark>
 - [[Design ATM]]
+- [[Design Elevator]]
+- [[Design StackOverflow]]
 
 --- end-multi-column
 

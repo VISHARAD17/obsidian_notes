@@ -64,5 +64,7 @@
   "design_patterns/3 behavioural_pattern": "CoFolderDocument",
   "TypeScript": "LiType",
   "Core CS": "CoFolder",
-  "Papers/All papers.md": "CoFileDocument"
+  "Papers/All papers.md": "CoFileDocument",
+  "system_design/concepts/Load Balancer.md": "CoFileDocument",
+  "system_design/concepts/CAP theorem.md": "CoFileDocument"
 }

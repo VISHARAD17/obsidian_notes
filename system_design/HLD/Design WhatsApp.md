@@ -18,7 +18,7 @@ Largest Column: standard
 
 --- end-multi-column
 #### Calculations
--  somhing
+-  somhinog
 - 
 
-
+![[whatsapp]]
