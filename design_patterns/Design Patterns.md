@@ -1,4 +1,3 @@
-
 --- start-multi-column: ID_mnd3
 ```column-settings
 Number of Columns: 3
@@ -20,3 +19,5 @@ Shadow: disabled
 - [[Factory Pattern]]
 
 --- end-multi-column
+### Design Pattern
+- to write efficient codes

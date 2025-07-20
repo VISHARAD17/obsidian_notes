@@ -10,6 +10,7 @@ Shadow: disabled
 - [[Scalability]]
 - [[Availability]]
 - [[CAP theorem]]
+- [[Replication]]
 - ACID
 - Consistent Hashing
 - Rate limiting
@@ -25,8 +26,8 @@ Shadow: disabled
 --- column-break ---
 
 ### <mark class="hltr-red">Design Problems</mark>
-- [[Spotify System Design]]
-- [[Design WhatsApp]]
+- [[Spotify]]
+- [[WhatsApp]]
 - whatapp
 - twitter
 - youtube

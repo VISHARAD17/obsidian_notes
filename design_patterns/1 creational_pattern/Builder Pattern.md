@@ -13,7 +13,7 @@
 | + buildRoof()        |
 | + buildGarage()      |
 | + getResult(): House |
-##### Implementation :
+#### Implementation :
 - Create an `interface` with common function/methods and then implement those using different builder classes
 ```java
 interface Builder {
@@ -25,7 +25,7 @@ interface Builder {
 }
 ```
 
-- **Implementation of Builder interface:**
+- Implementation of Builder interface:
 ```java
 class CarBuilder implements Builder {
     private Car car;

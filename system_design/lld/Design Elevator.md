@@ -1,7 +1,8 @@
 #LLD
 
 Link : [github](All%20Notes.md)
-### Elevator class
+
+**Elevator class**
 ```java
 Class Elevator{
 	private String elevator;
@@ -9,11 +10,10 @@ Class Elevator{
 }
 ```
 
-### Direction ( ENUM )
+**Direction ( ENUM )**
 ```java
 ENUM Direction{
 	UP,
 	DOWN
 }
 ```
-

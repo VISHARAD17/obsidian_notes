@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e94bbb58a83b5d18",
+        "id": "8ee15f7040ca2847",
         "type": "tabs",
         "children": [
           {
-            "id": "9bd033105d48536a",
+            "id": "dc98a5c354885502",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/6. Java Thread.md",
+                "file": "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6. Java Thread"
+              "title": "Abstract Factory Pattern"
             }
           }
         ]
@@ -139,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system_design/concepts/Availability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Availability"
+              "title": "Backlinks"
             }
           }
         ],
@@ -170,35 +169,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bd033105d48536a",
+  "active": "dc98a5c354885502",
   "lastOpenFiles": [
+    "system_design/excel-drawings/spotify.excalidraw.md",
+    "design_patterns/1 creational_pattern/Factory Pattern.md",
+    "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
+    "design_patterns/1 creational_pattern/Singleton Pattern.md",
+    "design_patterns/1 creational_pattern/Builder Pattern.md",
+    "design_patterns/Design Patterns.md",
+    "system_design/concepts/Availability.md",
+    "interview_notes/Spring boot interview.md",
     "java/5. More Java 2.md",
     "java/4. Stream Java.md",
+    "java/3. More Java.md",
     "java/2. Java Interview questions from youtube.md",
     "java/1. Core Java.md",
-    "Papers/All papers.md",
-    "system_design/concepts/SQL vs NoSQL.md",
+    "Excalidraw/allIcons.md",
+    "system_design/concepts/Scalability.md",
+    "system_design/concepts/Replication.md",
     "system_design/concepts/Load Balancer.md",
     "system_design/concepts/CAP theorem.md",
-    "system_design/concepts/Scalability.md",
-    "system_design/System Design.md",
-    "system_design/LLD/LLD.md",
+    "system_design/concepts/Untitled.md",
     "system_design/LLD/Design StackOverflow.md",
-    "system_design/LLD/Design ATM.md",
     "system_design/LLD/Design Elevator.md",
-    "system_design/HLD/Spotify System Design.md",
-    "system_design/HLD/Design WhatsApp.md",
-    "system_design/concepts/Availability.md",
-    "system_design/excel-drawings/spotify.excalidraw.md",
-    "system_design/excel-drawings/test-diagram.excalidraw.md",
-    "system_design/excel-drawings/whatsapp.md",
-    "Excalidraw",
-    "IMP links.md",
+    "system_design/LLD/Design ATM.md",
+    "system_design/concepts/SQL vs NoSQL.md",
+    "System_Design_Roadmap.md",
     "WhishList ( within next 2 years ).md",
-    "interview_notes/Payment Service.md",
-    "interview_notes/React + JavaScript.md",
-    "interview_notes/Spring boot interview.md",
-    "interview_notes/Frq asked spring boot questions.md",
+    "Linkedin.md",
+    "Mutithreading",
+    "Excalidraw/svg/Res_Elastic-Load-Balancing_Network-Load-Balancer_48.svg",
+    "Excalidraw/svg/Res_Users_48_Light.svg",
+    "queue.png",
+    "Excalidraw/svg/AWS-Cloud_32_Dark.svg",
+    "Excalidraw/svg/Arch_Elastic-Load-Balancing_48.svg",
+    "Excalidraw/svg/Arch_Amazon-DocumentDB_48.svg",
+    "Excalidraw/svg/Arch_Amazon-API-Gateway_48.svg",
+    "Excalidraw/svg/Res_Amazon-Simple-Storage-Service_Bucket-With-Objects_48.svg",
+    "Excalidraw/svg/Res_Amazon-Simple-Queue-Service_Queue_48.svg",
+    "Excalidraw/svg/Res_Amazon-ElastiCache_Cache-Node_48.svg",
+    "Excalidraw/svg",
+    "Excalidraw",
     "Papers/all_summary",
     "Papers",
     "TypeScript",
@@ -206,8 +217,6 @@
     "system_design/building_blocks",
     "design_patterns/2 structoral_pattern",
     "design_patterns/1 creational_pattern",
-    "DSA",
-    "java/Main.java",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

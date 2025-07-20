@@ -3,10 +3,10 @@
   "theme": "moonstone",
   "cssTheme": "",
   "translucency": false,
-  "baseFontSize": 17,
+  "baseFontSize": 18,
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "Apple Braille",
-  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Assistant",
+  "interfaceFontFamily": "Apple Braille",
   "enabledCssSnippets": [
     "customCss"
   ],

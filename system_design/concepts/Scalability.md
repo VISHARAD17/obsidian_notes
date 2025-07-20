@@ -1,16 +1,14 @@
 #hld_concepts
 
-
 > As a system grows, the performance starts to **degrade** unless we adapt it to deal with that growth.
 > Scalability is the property of a system to handle growing amount of load by adding more resources
-
-### How System grows ?
+#### How System grows ?
 - If more user started using the system, leading to more number of requests
 - Adding more number of features
 - More amount of data due to more user activity
 - System's architecture evolves to accommodate new features, scale or integrations, resulting in additional components and dependencies.
 - System needs to expand to serve users in new regions or countries.
-### How to scale ?
+#### How to scale ?
 - **Vertical Scaling** : Means adding more power to existing machines.
 - **Horizontal Scaling** : Adding more machines to spread workload across multiple systems.
 - **Load Balancing**: distributing traffic across multiple servers to ensure no single server becomes overwhelmed.

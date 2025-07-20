@@ -1,5 +1,5 @@
 #LLD 
-#### ATM
+##### **ATM**
 ```java
 public class ATM {  
     private static ATM INSTANCE;  
@@ -19,7 +19,7 @@ public class ATM {
 	public void selectOperation(OperationType op, int... args){};
 ```
 
-#### ATMState (ENUM)
+##### **ATMState (ENUM)**
 ```java
 public ENUM {
 	READY;

@@ -5,12 +5,12 @@ body {
 /* Inline code: background and font color */
 :not(pre) > code,
 .cm-inline-code {
-  background-color: #e3e2de !important; /* Your background color */
-  color: #000000 !important;            /* Your font color */
+  background-color: #F1F1EF !important; /* Your background color */
+  color: #EB5757 !important;            /* Your font color */
   border-radius: 4px;
   padding: 2px 4px;
-  font-size: 1em;
-  font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+  font-size: 0.8em !important;
+  font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace !important;
 }
 
 
@@ -40,3 +40,21 @@ strong, b,
 .callout-icon {
   display: none !important;
 }
+
+
+.HyperMD-codeblock, :not(pre) > code[class*="language-"], pre[class*="language-"] {
+    --code-size: 14px;
+    --code-normal: #d4d4d4;
+    --code-comment: #6a9a56;
+    --code-function: #dcdcaa;
+    --code-important: #f44747;
+    --code-keyword: #c586c0;
+    --code-operator: #d4d4d4;
+    --code-property: #9cdcfe;
+    --code-punctuation: #cccccc;
+    --code-string: #ce9178;
+    --code-tag: #569cd6;
+    --code-value: #b5cea8;
+    --code-background: #1e1e1e;
+}
+

@@ -22,13 +22,14 @@ Shadow: disabled
 - Global Service
 
 --- end-multi-column
-#### Calculation:
+#### Estimations:
 - Daily 500M songs
+- 
 
 #### Flows:
 - ***stream_songs***: request goes through the LB to the streaming service which then fetches data from the metadata DB and we can leverage CDN for faster and uninterrupted streaming experience.
 - ***Recommend songs*** : request goes through the recommendation service via LB, which uses to cache to faster metadata retrieval.
-- ***flow_3**:
+- ***search songs***:  request goes through the recommendation service via LB, which uses stored indices from song metaData DB to give faster retrieval
 
 
-![[spotify.excalidraw|500000000|center]]
+![[spotify.excalidraw|800|center]]

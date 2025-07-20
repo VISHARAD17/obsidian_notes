@@ -31,5 +31,14 @@
       ],
       "key": "R"
     }
+  ],
+  "markdown:toggle-preview": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
   ]
 }

@@ -8,7 +8,7 @@
        1. **Stopwatch Initialization**:
           - Starts a timer to track the application startup time (e.g., 1, 2, or 3 seconds).
        2. **Configure Headless Property**:
-          - Sets `java.awt.headless=true` to indicate the application doesn’t require a display device, suitable for server environments.
+          - Sets `java.awt.headless=true`e to indicate the application doesn’t require a display device, suitable for server environments.
        3. **Process Command-Line Arguments**:
           - Captures arguments passed via the command line and integrates them with environment properties.
           - Supports Spring profiles (e.g., `dev`, `test`, `prod`) to configure environment-specific settings.

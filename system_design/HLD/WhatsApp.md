@@ -7,7 +7,7 @@ Largest Column: standard
 ```
 
 **Functional Req**
-- something
+- 1:1 real time messaging between users
 - something
 
 --- column-break ---
@@ -21,4 +21,4 @@ Largest Column: standard
 -  somhinog
 - 
 
-![[whatsapp]]
+![[whatsapp.ecalidraw|800|centre]]
