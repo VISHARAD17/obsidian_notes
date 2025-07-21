@@ -12,31 +12,30 @@
 - [ ] Long polling vs Websockets vs Server sent events
 
 ### **Design Patterns**
-- [ ] Design Patterns
-	- [ ] Creational
-		- [x] Singleton
-		- [ ] Factory
-		- [ ] Abstract
-		- [ ] Builder
-		- [ ] Prototype
-	- [ ] Structural
-		- [ ] Adapter
-		- [ ] Bridge
-		- [ ] Composite
-		- [ ] Facade
-		- [ ] Flyweight
-		- [ ] Proxy
-	- [ ] Behavioral
-		- [ ] Iterator
-		- [ ] Observer
-		- [ ] Strategy
-		- [ ] Command
-		- [ ] State
-		- [ ] Template method
-		- [ ] Visitor
-		- [ ] Mediator
-		- [ ] Memento
-		- [ ] Chain of res
+- [ ] Creational
+	- [x] Singleton
+	- [x] Factory
+	- [ ] Abstract Factory
+	- [ ] Builder
+	- [ ] Prototype
+- [ ] Structural
+	- [ ] Adapter
+	- [ ] Bridge
+	- [ ] Composite
+	- [ ] Facade
+	- [ ] Flyweight
+	- [ ] Proxy
+- [ ] Behavioral
+	- [ ] Iterator
+	- [ ] Observer
+	- [ ] Strategy
+	- [ ] Command
+	- [ ] State
+	- [ ] Template method
+	- [ ] Visitor
+	- [ ] Mediator
+	- [ ] Memento
+	- [ ] Chain of res
 
 ### **LLD**
 - [ ] Easy

@@ -69,7 +69,6 @@
   "design_patterns/1 creational_pattern/Abstract Factory Pattern.md": "CoFileDocument",
   "AWS": "FasFolder",
   "Excalidraw": "LiPaintRoller",
-  "AWS/Amazon Compute.md": "CoFileDocument",
   "TypeScript.md": {
     "iconName": "CoFileDocument",
     "iconColor": "#b97474"
@@ -81,5 +80,6 @@
   },
   "SQL/Basics.md": "CoFileDocument",
   "SQL/Joins.md": "CoFileDocument",
-  "system_design/concepts/Hashing.md": "CoFileDocument"
+  "system_design/concepts/Hashing.md": "CoFileDocument",
+  "AWS/Amazon Compute.md": "CoFileDocument"
 }
