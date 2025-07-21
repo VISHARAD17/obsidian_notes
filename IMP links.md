@@ -1,4 +1,3 @@
 - [System Design One](http://newsletter.systemdesign.one/archive)
-- [High level design github]()
-- [Low level design github]()
+- - [Vaibhav taneja](https://www.linkedin.com/in/vaibhav-taneja-7297003/)
 

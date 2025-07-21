@@ -22,11 +22,10 @@ Shadow: disabled
 - Global Service
 
 --- end-multi-column
-#### Estimations:
+#### **Estimations**:
 - Daily 500M songs
 - 
-
-#### Flows:
+#### **Flows**:
 - ***stream_songs***: request goes through the LB to the streaming service which then fetches data from the metadata DB and we can leverage CDN for faster and uninterrupted streaming experience.
 - ***Recommend songs*** : request goes through the recommendation service via LB, which uses to cache to faster metadata retrieval.
 - ***search songs***:  request goes through the recommendation service via LB, which uses stored indices from song metaData DB to give faster retrieval

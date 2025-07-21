@@ -1,12 +1,17 @@
+### **System Design Concepts**
+- [ ] DB
+	- [ ] SQL vs NoSQL
+	- [ ] Indexing
+	- [ ] Data Partition
+- [ ] Load Balancer
+- [ ] Availability
+- [ ] Scalability
+- [ ] Hashing
+- [ ] CAP
+- [ ] Caching
+- [ ] Long polling vs Websockets vs Server sent events
 
---- start-multi-column: ID_vly8
-```column-settings
-Number of Columns: 2
-Shadow: disabled
-Align Tables to Text Alignment: true
-```
-
-
+### **Design Patterns**
 - [ ] Design Patterns
 	- [ ] Creational
 		- [x] Singleton
@@ -33,9 +38,7 @@ Align Tables to Text Alignment: true
 		- [ ] Memento
 		- [ ] Chain of res
 
-
---- column-break ---
-
+### **LLD**
 - [ ] Easy
 	- [ ] Design parking lot
 	- [ ] stack overflow
@@ -53,8 +56,17 @@ Align Tables to Text Alignment: true
 	- [ ] Elevator
 	- [ ] Car rental
 
---- end-multi-column
-
-
+### **HLD**
+- [ ] Whatsapp
+- [ ] Instagram
+- [ ] Youtube
+- [ ] Facebook
+- [ ] Amazon ( Delivery )
+- [ ] Zomato / swiggy
+- [ ] Notification system
+- [ ] Uber
+- [ ] Payment system
+- [ ] Event based system
+- [ ] URL shortner
 
 

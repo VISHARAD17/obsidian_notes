@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8ee15f7040ca2847",
+        "id": "b4d9752b49abfe2f",
         "type": "tabs",
         "children": [
           {
-            "id": "dc98a5c354885502",
+            "id": "e5add028e68b3ce0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
+                "file": "AWS/Amazon Compute.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Abstract Factory Pattern"
+              "title": "Amazon Compute"
             }
           }
         ]
@@ -139,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS/Amazon Compute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Amazon Compute"
             }
           }
         ],
@@ -166,37 +167,41 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "sheet-plus:Create excel file": false
     }
   },
-  "active": "dc98a5c354885502",
+  "active": "e5add028e68b3ce0",
   "lastOpenFiles": [
-    "system_design/excel-drawings/spotify.excalidraw.md",
-    "design_patterns/1 creational_pattern/Factory Pattern.md",
-    "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
-    "design_patterns/1 creational_pattern/Singleton Pattern.md",
-    "design_patterns/1 creational_pattern/Builder Pattern.md",
-    "design_patterns/Design Patterns.md",
-    "system_design/concepts/Availability.md",
-    "interview_notes/Spring boot interview.md",
-    "java/5. More Java 2.md",
-    "java/4. Stream Java.md",
-    "java/3. More Java.md",
-    "java/2. Java Interview questions from youtube.md",
-    "java/1. Core Java.md",
-    "Excalidraw/allIcons.md",
+    "SDE sheet.md",
+    "Interview Preparation.md",
+    "IMP links.md",
+    "Linkedin.md",
+    "DSA.md",
+    "WhishList ( within next 2 years ).md",
+    "().md",
+    "System_Design_Roadmap.md",
+    "interview_notes/Frq asked spring boot questions.md",
+    "java/8. Multithreading.md",
+    "TODOs.md",
+    "system_design/concepts/Hashing.md",
+    "system_design/concepts/Storage.md",
     "system_design/concepts/Scalability.md",
     "system_design/concepts/Replication.md",
     "system_design/concepts/Load Balancer.md",
-    "system_design/concepts/CAP theorem.md",
-    "system_design/concepts/Untitled.md",
+    "system_design/concepts/Availability.md",
     "system_design/LLD/Design StackOverflow.md",
-    "system_design/LLD/Design Elevator.md",
     "system_design/LLD/Design ATM.md",
-    "system_design/concepts/SQL vs NoSQL.md",
-    "System_Design_Roadmap.md",
-    "WhishList ( within next 2 years ).md",
-    "Linkedin.md",
+    "Excalidraw/Drawing 2025-07-21 22.28.17.excalidraw.md",
+    "SQL/Joins.md",
+    "SQL/Basics.md",
+    "system_design/HLD/Spotify.md",
+    "system_design/System Design.md",
+    "Mutithreading/Intro.md",
+    "SQL",
+    "Excalidraw/svg/Arch_Amazon-API-Gateway_48.svg",
+    "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
+    "AWS",
     "Mutithreading",
     "Excalidraw/svg/Res_Elastic-Load-Balancing_Network-Load-Balancer_48.svg",
     "Excalidraw/svg/Res_Users_48_Light.svg",
@@ -204,7 +209,6 @@
     "Excalidraw/svg/AWS-Cloud_32_Dark.svg",
     "Excalidraw/svg/Arch_Elastic-Load-Balancing_48.svg",
     "Excalidraw/svg/Arch_Amazon-DocumentDB_48.svg",
-    "Excalidraw/svg/Arch_Amazon-API-Gateway_48.svg",
     "Excalidraw/svg/Res_Amazon-Simple-Storage-Service_Bucket-With-Objects_48.svg",
     "Excalidraw/svg/Res_Amazon-Simple-Queue-Service_Queue_48.svg",
     "Excalidraw/svg/Res_Amazon-ElastiCache_Cache-Node_48.svg",
@@ -215,8 +219,6 @@
     "TypeScript",
     "design_patterns/3 behavioural_pattern",
     "system_design/building_blocks",
-    "design_patterns/2 structoral_pattern",
-    "design_patterns/1 creational_pattern",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

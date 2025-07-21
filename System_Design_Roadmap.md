@@ -1,10 +1,3 @@
-
-# Comprehensive System Design Roadmap for Top Tech Companies
-
-This roadmap provides a structured approach to mastering system design, tailored for interviews at top-tier tech companies like Google, Meta, Amazon, Netflix, and Uber.
-
----
-
 ## Phase 1: Foundational Knowledge (1-2 Weeks)
 
 Before diving into complex system design, ensure your fundamentals are rock-solid. You should be able to explain these concepts clearly and understand their trade-offs.

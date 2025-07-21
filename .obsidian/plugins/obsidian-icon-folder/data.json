@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiFolderLine",
-      "LiPaperclip",
-      "LiType",
-      "RiJavascriptFill",
-      "CoFileDocument"
+      "LiDatabase",
+      "CoFileDocument",
+      "LiPaintRoller",
+      "LiExcalidrawIcon",
+      "FasFolder"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,13 +34,13 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "system_design": "CoFolder",
+  "system_design": "FasFolder",
   "design_patterns/1 creational_pattern/Builder Pattern.md": "CoFileDocument",
   "design_patterns/1 creational_pattern/Factory Pattern.md": "CoFileDocument",
   "design_patterns/1 creational_pattern/Singleton Pattern.md": "CoFileDocument",
   "system_design/System Design.md": "CoNotebook",
   "design_patterns/Design Patterns.md": "CoNotebook",
-  "design_patterns": "CoFolder",
+  "design_patterns": "FasFolder",
   "system_design/LLD": "CoFolder",
   "system_design/LLD/Design Elevator.md": "CoFileDocument",
   "system_design/LLD/LLD.md": "LiNotebookPen",
@@ -49,7 +49,7 @@
   "system_design/excel-drawings": "LiPaintRoller",
   "java": {
     "iconName": "FabJava",
-    "iconColor": "#714747"
+    "iconColor": "#d11515"
   },
   "system_design/concepts": "CoFolder",
   "system_design/concepts/Availability.md": "CoFileDocument",
@@ -59,13 +59,27 @@
   "design_patterns/1 creational_pattern": "RiFolderLine",
   "design_patterns/2 structoral_pattern": "RiFolderLine",
   "design_patterns/3 behavioural_pattern": "RiFolderLine",
-  "TypeScript": "LiType",
-  "Core CS": "CoFolder",
+  "Core CS": "FasFolder",
   "Papers/All papers.md": "CoFileDocument",
   "system_design/concepts/Load Balancer.md": "CoFileDocument",
   "system_design/concepts/CAP theorem.md": "CoFileDocument",
   "system_design/concepts/Replication.md": "CoFileDocument",
   "system_design/HLD/Spotify.md": "CoFileDocument",
   "system_design/HLD/WhatsApp.md": "CoFileDocument",
-  "design_patterns/1 creational_pattern/Abstract Factory Pattern.md": "CoFileDocument"
+  "design_patterns/1 creational_pattern/Abstract Factory Pattern.md": "CoFileDocument",
+  "AWS": "FasFolder",
+  "Excalidraw": "LiPaintRoller",
+  "AWS/Amazon Compute.md": "CoFileDocument",
+  "TypeScript.md": {
+    "iconName": "CoFileDocument",
+    "iconColor": "#b97474"
+  },
+  "interview_notes": "FasFolder",
+  "SQL": {
+    "iconName": "LiDatabase",
+    "iconColor": "#dc7c2e"
+  },
+  "SQL/Basics.md": "CoFileDocument",
+  "SQL/Joins.md": "CoFileDocument",
+  "system_design/concepts/Hashing.md": "CoFileDocument"
 }

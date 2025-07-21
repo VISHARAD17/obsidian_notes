@@ -56,9 +56,9 @@ This starter automatically includes Spring MVC, Jackson for JSON, and an embedde
 ### 3. What is the role of the `@SpringBootApplication` annotation?
 **Explanation**:  
 The `@SpringBootApplication` annotation is a composite annotation that combines three key annotations:  
-- **`@Configuration`**: Marks the class as a source of bean definitions, allowing you to define beans using `@Bean`.  
-- **`@EnableAutoConfiguration`**: Enables Spring Boot’s auto-configuration, which configures beans based on classpath dependencies (e.g., auto-configuring a `DataSource` if a database driver is present).  
-- **`@ComponentScan`**: Scans for Spring components (e.g., `@Controller`, `@Service`, `@Repository`) in the current package and sub-packages.  
+- `@Configuration`: Marks the class as a source of bean definitions, allowing you to define beans using `@Bean`.  
+- `@EnableAutoConfiguration`: Enables Spring Boot’s auto-configuration, which configures beans based on classpath dependencies (e.g., auto-configuring a `DataSource` if a database driver is present).  
+- `@ComponentScan`: Scans for Spring components (e.g., `@Controller`, `@Service`, `@Repository`) in the current package and sub-packages.  
 This annotation is typically placed on the main application class to bootstrap the Spring Boot application.
 
 **Example**:  

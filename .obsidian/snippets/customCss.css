@@ -1,5 +1,5 @@
 body {
-  --file-line-width: 1000px;
+  --file-line-width: 1200px;
 }
 
 /* Inline code: background and font color */
@@ -58,3 +58,8 @@ strong, b,
     --code-background: #1e1e1e;
 }
 
+body.fancy-cursor .markdown-source-view.mod-cm6 .cm-content,
+body .markdown-source-view.mod-cm6 .cm-content,
+body.fancy-cursor .mod-cm6 .cm-line {
+    caret-color: var(--text-accent) !important;
+}
