@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLink",
+      "RiFileExcel2Fill",
+      "LiFileSpreadsheet",
       "LiDatabase",
-      "CoFileDocument",
-      "LiPaintRoller",
-      "LiExcalidrawIcon",
-      "FasFolder"
+      "CoFileDocument"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -81,5 +81,10 @@
   "SQL/Basics.md": "CoFileDocument",
   "SQL/Joins.md": "CoFileDocument",
   "system_design/concepts/Hashing.md": "CoFileDocument",
-  "AWS/Amazon Compute.md": "CoFileDocument"
+  "AWS/Amazon Compute.md": "CoFileDocument",
+  "DSA Sheet.md": {
+    "iconName": "RiFileExcel2Fill",
+    "iconColor": "#3d8556"
+  },
+  "IMP links.md": "LiLink"
 }

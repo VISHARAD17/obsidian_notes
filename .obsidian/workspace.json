@@ -11,15 +11,12 @@
             "id": "e5add028e68b3ce0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excel-pro-view",
               "state": {
-                "file": "design_patterns/1 creational_pattern/Factory Pattern.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "DSA Sheet.md"
               },
               "icon": "lucide-file",
-              "title": "Factory Pattern"
+              "title": "DSA Sheet"
             }
           }
         ]
@@ -139,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "design_patterns/1 creational_pattern/Factory Pattern.md",
+                "file": "DSA Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Factory Pattern"
+              "title": "Backlinks for DSA Sheet"
             }
           }
         ],
@@ -173,19 +170,20 @@
   },
   "active": "e5add028e68b3ce0",
   "lastOpenFiles": [
-    "design_patterns/1 creational_pattern/Builder Pattern.md",
+    "IMP links.md",
+    "DSA Sheet.md",
+    "WhishList.md",
+    "Untitled.md",
     "design_patterns/1 creational_pattern/Factory Pattern.md",
+    "design_patterns/1 creational_pattern/Builder Pattern.md",
     "TODOs.md",
     "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
     "interview_notes/Frq asked spring boot questions.md",
     "interview_notes/Payment Service.md",
     "AWS/Amazon Compute.md",
-    "SDE sheet.md",
     "Interview Preparation.md",
-    "IMP links.md",
     "Linkedin.md",
     "DSA.md",
-    "WhishList ( within next 2 years ).md",
     "().md",
     "System_Design_Roadmap.md",
     "java/8. Multithreading.md",
@@ -198,7 +196,6 @@
     "system_design/LLD/Design StackOverflow.md",
     "system_design/LLD/Design ATM.md",
     "Excalidraw/Drawing 2025-07-21 22.28.17.excalidraw.md",
-    "SQL/Joins.md",
     "SQL",
     "Excalidraw/svg/Arch_Amazon-API-Gateway_48.svg",
     "AWS",

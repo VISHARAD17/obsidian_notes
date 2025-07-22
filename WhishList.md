@@ -1,4 +1,4 @@
- **Target: min 40L Base**
+# 40L base - 1 Year
 
 Pune:
 - google, rubrik, doordash, SingleStore
@@ -11,3 +11,4 @@ Finance:
 
 Software
 - Salesforce, Google ( pune ) - no bglr, Amdocs, FalconX, Rippling, DoorDash
+
