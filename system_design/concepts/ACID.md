@@ -1,0 +1,15 @@
+> ACID refers to the 4 set of key properties that define a transaction or specifically a database transaction.
+### **Database transaction ?** 
+A transaction in context of database is a series of one or more operations ( such as inserting, updating or deleting records ) which it treats as a single action. it either fully commits (succeeds) or fully fails. No in between.
+- without transactions database would be in inconsistent state.
+	- partial updates or inconsistent reads ( this happens when we try to read something which is being updated or written )
+Transactions fixes these kind of problems by implementing **ACID** principles.
+
+## **Atomicity**
+- Atomicity ensures that all parts or all commands in transaction executes as a single and individual unit of work. It either fully succeeds (commits) or fully fails ( rolls back)
+- If any part of transaction fails, the transaction rolls back to the previous state before execution.
+#### **Implementation of Atomicity**
+1. **Transaction Logs (Write ahead logs)**:
+	- Operation is recorded in a log before it is applied to DB. If any failure occurs, the database uses this log to undo the half baked changes.
+	- 
+

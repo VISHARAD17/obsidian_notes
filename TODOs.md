@@ -68,4 +68,70 @@
 - [ ] Event based system
 - [ ] URL shortner
 
+### **DSA**
+- [ ] Array
+	- [ ] gfg course problems
+	- [ ] github article
+	- [ ] Proper notes
+	- [ ] neetcode 150
+	- [ ] leetcode 150
+	- [ ] blind 75
+	- [ ] write 1 linear for all
+- [ ] String
+	- [ ] gfg course problems
+	- [ ] github article
+	- [ ] Proper notes
+	- [ ] neetcode 150
+	- [ ] leetcode 150
+	- [ ] blind 75
+	- [ ] write 1 linear for all
+- [ ] Queue
+	- [ ] gfg course problems
+	- [ ] github article
+	- [ ] Proper notes
+	- [ ] neetcode 150
+	- [ ] leetcode 150
+	- [ ] blind 75
+	- [ ] write 1 linear for all
+	- [ ] deque
+		- [ ] gfg course problems
+		- [ ] github article
+		- [ ] Proper notes
+		- [ ] neetcode 150
+		- [ ] leetcode 150
+		- [ ] blind 75
+		- [ ] write 1 linear for all
+- [ ] Stack
+	- [ ] gfg course problems
+	- [ ] github article
+	- [ ] Proper notes
+	- [ ] neetcode 150
+	- [ ] leetcode 150
+	- [ ] blind 75
+	- [ ] write 1 linear for all
+- [ ] Dynamic Programing
+	- [ ] gfg course problems
+	- [ ] github article
+	- [ ] Proper notes
+	- [ ] neetcode 150
+	- [ ] leetcode 150
+	- [ ] blind 75
+	- [ ] write 1 linear for all
+- [ ] Recursion
+- [ ] Backtrack
+- [ ] Search
+- [ ] Sort
+- [ ] Heap
+- [ ] Linked list
+- [ ] Hashing
+- [ ] Tree
+	- [ ] Binary Tree
+- [ ] Greedy
+- [ ] Graph
+	- [ ] Khan's algo / topological sorting
+	- [ ] BFS
+	- [ ] DFS
+- [ ] Minimum Spanning Tree
+- [ ] Dijikstra Algo
+
 

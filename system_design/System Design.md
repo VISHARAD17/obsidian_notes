@@ -11,7 +11,7 @@ Shadow: disabled
 - [[Availability]]
 - [[CAP theorem]]
 - [[Replication]]
-- ACID
+- [[ACID]]
 - Consistent Hashing
 - Rate limiting
 - SPOF

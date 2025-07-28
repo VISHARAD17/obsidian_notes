@@ -1,5 +1,9 @@
 #hld_concepts
 
+Resources:
+- [paper](https://www.sei.cmu.edu/documents/2104/2006_004_001_14681.pdf)
+- [blog](https://blog.algomaster.io/p/scalability)
+
 > As a system grows, the performance starts to **degrade** unless we adapt it to deal with that growth.
 > Scalability is the property of a system to handle growing amount of load by adding more resources
 #### **How System grows ?**
