@@ -1,18 +1,19 @@
-**The Factory Design Pattern** is a creational pattern, defined an interface for creating an object but lets subclass decides which class to instantiate. 
-
-**Used When**:
+>**The Factory Design Pattern** is a creational pattern, defined an interface for creating an object but lets subclass decides which class to instantiate. 
+##### **Used When**:
 - Exact type of object to be created is unknown until runtime.
 - Object creation logic is complex, repetitive or needs encapsulation.
 - Need to follow **open/closed principle** -- open for extension and close for modification
 
 Let's say we want to create a pizza store:
-**Pizza interface**
+- **Pizza interface**
 ```java
 public interface Pizza {
 	void eat();
 }
 ```
-**Mozzarella pizza**
+
+- **Mozzarella pizza**
+	- We can have different types of pizzas using Pizza interface like `ChessyPizza`, `OnionCapsicumPizza`, etc.
 ```java
 public MozzarellaPizza implements Pizza {
 	@override
@@ -21,7 +22,8 @@ public MozzarellaPizza implements Pizza {
 	}
 }
 ```
-**Pizza store**
+
+- **Pizza store**
 ```java
 public class PizzaStore {
 	void serverPizza(String type){

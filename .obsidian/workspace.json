@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WhishList.md",
+                "file": "DSA/Arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "WhishList"
+              "title": "Arrays"
             }
           }
         ]
@@ -172,10 +172,20 @@
   },
   "active": "e5add028e68b3ce0",
   "lastOpenFiles": [
-    "TODOs.md",
-    "TypeScript.md",
-    "System_Design_Roadmap.md",
     "Interview Preparation.md",
+    "System_Design_Roadmap.md",
+    "TODOs.md",
+    "WhishList.md",
+    "DSA/Arrays.md",
+    "DSA/Sorting & Searching.md",
+    "DSA/Graphs.md",
+    "DSA/Dynamic Programming.md",
+    "design_patterns/1 creational_pattern/Factory Pattern.md",
+    "design_patterns/1 creational_pattern/Builder Pattern.md",
+    "design_patterns/1 creational_pattern/Singleton Pattern.md",
+    "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
+    "design_patterns/2 structoral_pattern/1. Decorator Pattern.md",
+    "TypeScript.md",
     "IMP links.md",
     "interview Exp.md",
     "Excalidraw/allIcons.md",
@@ -187,12 +197,8 @@
     "Excalidraw/svg/Arch_Amazon-API-Gateway_48.svg",
     "interview_notes/Payment Service.md",
     "interview_notes/Frq asked spring boot questions.md",
-    "DSA/Dynamic Programming.md",
-    "DSA/Graphs.md",
-    "DSA/Sorting & Searching.md",
     "DSA Sheet.md",
     "design_patterns/Design Patterns.md",
-    "design_patterns/1 creational_pattern/Abstract Factory Pattern.md",
     "DSA",
     "DSA",
     "system_design/concepts/Availability.md",
@@ -200,12 +206,6 @@
     "Excalidraw/Drawing 2025-07-21 22.28.17.excalidraw.md",
     "system_design/excel-drawings/spotify.excalidraw.md",
     "system_design/concepts/ACID.md",
-    "system_design/concepts/Load Balancer.md",
-    "system_design/concepts/Hashing.md",
-    "system_design/concepts/CAP theorem.md",
-    "system_design/excel-drawings/whatsapp.ecalidraw.md",
-    "system_design/concepts/Storage.md",
-    "system_design/concepts/SQL vs NoSQL.md",
     "Pasted image 20250725231141.png",
     "Books",
     "SQL",
