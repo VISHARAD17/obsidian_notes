@@ -1,4 +1,4 @@
-### **System Design Concepts**
+### System Design Concepts
 - [ ] DB
 	- [ ] SQL vs NoSQL
 	- [ ] Indexing
@@ -11,7 +11,7 @@
 - [ ] Caching
 - [ ] Long polling vs Websockets vs Server sent events
 
-### **Design Patterns**
+### Design Patterns
 - [ ] Creational
 	- [x] Singleton
 	- [x] Factory
@@ -37,7 +37,7 @@
 	- [ ] Memento
 	- [ ] Chain of res
 
-### **LLD**
+### LLD 
 - [ ] Easy
 	- [ ] Design parking lot
 	- [ ] stack overflow
@@ -55,7 +55,7 @@
 	- [ ] Elevator
 	- [ ] Car rental
 
-### **HLD**
+### HLD
 - [ ] Whatsapp
 - [ ] Instagram
 - [ ] Youtube
@@ -68,7 +68,7 @@
 - [ ] Event based system
 - [ ] URL shortner
 
-### **DSA**
+### DSA
 - [ ] Array
 	- [ ] gfg course problems
 	- [ ] github article
@@ -133,5 +133,9 @@
 	- [ ] DFS
 - [ ] Minimum Spanning Tree
 - [ ] Dijikstra Algo
+
+
+### SQL
+
 
 

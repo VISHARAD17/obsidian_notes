@@ -1,24 +1,30 @@
+### **Basics**
+- Dynamic Programming is used as a optimization technique over recursion.
 
+### **Questions :**
 #### **1. Longest Palindromic Subsequence**
 - **code**: [github](www.google.com)
 - **Problem**: 
-- **Solution**
+- **Explanation**
 	- something
 	- something
 	- something
-- Naive solution
+	
+- **Naive :**
 ```cpp
 for(int i=0; i<n; i++){
 	cout << "Longest Palindromic Subsequence";
 }
 ```
-- Solution
+- 
+- **Optimized :**
 ```cpp
 for(int i=0; i<n; i++){
 	cout << "LCS";
 }
 ```
-
+- **time complexity :** `O(n)`
+- **Space complexity :** `O(n)`
 #### **2. Something**
 - **Problem**:
 - **Solution**:

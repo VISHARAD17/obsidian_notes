@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiGitGraph",
       "LiCode",
-      "RiDashboardHorizontalFill",
-      "CoFileDocument",
-      "FasBook"
+      "CoCode",
+      "CoBook",
+      "FabYoutube",
+      "RiWhatsappFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,22 +60,14 @@
   "design_patterns/2 structoral_pattern": "RiFolderLine",
   "design_patterns/3 behavioural_pattern": "RiFolderLine",
   "Core CS": "FasFolder",
-  "Papers/All papers.md": "CoFileDocument",
   "system_design/concepts/Load Balancer.md": "CoFileDocument",
   "system_design/concepts/CAP theorem.md": "CoFileDocument",
   "system_design/concepts/Replication.md": "CoFileDocument",
-  "system_design/HLD/Spotify.md": "CoFileDocument",
-  "system_design/HLD/WhatsApp.md": "CoFileDocument",
+  "system_design/HLD/Spotify.md": "CoBook",
+  "system_design/HLD/WhatsApp.md": "CoBook",
   "design_patterns/1 creational_pattern/Abstract Factory Pattern.md": "CoFileDocument",
   "AWS": "FasFolder",
-  "Excalidraw": "LiPaintRoller",
   "interview_notes": "FasFolder",
-  "SQL": {
-    "iconName": "LiDatabase",
-    "iconColor": "#dc7c2e"
-  },
-  "SQL/Basics.md": "CoFileDocument",
-  "SQL/Joins.md": "CoFileDocument",
   "system_design/concepts/Hashing.md": "CoFileDocument",
   "AWS/Amazon Compute.md": "CoFileDocument",
   "DSA Sheet.md": {
@@ -90,6 +82,14 @@
     "iconColor": "#0e39e1"
   },
   "DSA/Graphs.md": "LiCode",
-  "DSA/Sorting & Searching.md": "LiCode",
-  "DSA/Arrays.md": "LiCode"
+  "DSA/Arrays.md": "LiCode",
+  "SQL.md": {
+    "iconName": "FasDatabase",
+    "iconColor": "#f28a36"
+  },
+  "system_design/HLD/Youtube.md": "CoBook",
+  "DSA/Sorting.md": "LiCode",
+  "DSA/Searching.md": "LiCode",
+  "system_design/HLD/Instagran.md": "CoBook",
+  "system_design/HLD/Uber.md": "CoBook"
 }

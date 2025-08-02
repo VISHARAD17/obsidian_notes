@@ -21,4 +21,4 @@ Largest Column: standard
 -  somhinog
 - 
 
-![[whatsapp.ecalidraw|800|centre]]
+![[whatsapp.ecalidraw|1000|center]]
