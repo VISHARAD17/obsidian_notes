@@ -8,9 +8,9 @@
 | Create playlist         | Low Latency       |
 | Music Recommendatio     | High Availability |
 | Add support             | Global Service    |
+|                         |                   |
 #### **Estimations**:
 - Daily 500M songs
-- 
 #### **Flows**:
 - ***stream_songs***: request goes through the LB to the streaming service which then fetches data from the metadata DB and we can leverage CDN for faster and uninterrupted streaming experience.
 - ***Recommend songs*** : request goes through the recommendation service via LB, which uses to cache to faster metadata retrieval.
@@ -20,5 +20,5 @@
 	-  somthing
 
 --- 
-### Diagram:
+#### **Diagram**:
 ![[spotify.excalidraw|1000|center]]

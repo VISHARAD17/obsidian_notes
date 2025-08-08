@@ -1,17 +1,18 @@
 body {
-  --file-line-width: 1200px;
+  --file-line-width: 1000px;
 }
 
-/* Inline code: background and font color */
-:not(pre) > code,
-.cm-inline-code {
-  background-color: #F1F1EF !important; /* Your background color */
-  color: #EB5757 !important;            /* Your font color */
-  border-radius: 4px;
-  padding: 2px 4px;
-  font-size: 0.8em !important;
-  font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace !important;
-}
+ /* Inline code: background and font color  */
+ :not(pre) > code,
+ .cm-inline-code {
+   background-color: #F1F1EF !important; /* Your background color */
+   /* color: #EB5757 !important;            /* Your font color */
+    color: var(--text-accent) !important;
+   border-radius: 4px;
+   padding: 2px 4px;
+   font-size: 0.8em !important;
+   font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace !important;
+ }
 
 
 /* Heading colors - dark background */
@@ -30,10 +31,10 @@ body {
 /* .cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #6c4fbb; }   /* Purple */ */
 /* .cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #6c757d; }   /* Gray */ */
 /* Make bold text bolder */
-strong, b,
-.cm-strong {
-  font-weight: 1500 !important; /* You can increase to 800 or 900 if you want it even bolder */
-}
+/* strong, b, */
+/* .cm-strong { */
+/*   font-weight: 1500 !important; /* You can increase to 800 or 900 if you want it even bolder */ */
+/* } */
 
 /* no callout button */
 
@@ -55,7 +56,8 @@ strong, b,
     --code-string: #ce9178;
     --code-tag: #569cd6;
     --code-value: #b5cea8;
-    --code-background: #1e1e1e;
+    --code-background: #222222;
+
 }
 
 body.fancy-cursor .markdown-source-view.mod-cm6 .cm-content,
@@ -63,3 +65,30 @@ body .markdown-source-view.mod-cm6 .cm-content,
 body.fancy-cursor .mod-cm6 .cm-line {
     caret-color: var(--text-accent) !important;
 }
+
+.cm-quote {
+    background-color: #d7e4f7;
+    padding: 0.15em;
+}
+
+/* For Reading Mode */
+.markdown-preview-view blockquote {
+    background-color: #d7e4f7;
+    padding: 0.15em;
+  }
+
+/* Change color for all headers */
+/* .markdown-preview-view h1, */
+/* .markdown-preview-view h2, */
+/* .markdown-preview-view h3, */
+/* .markdown-preview-view h4, */
+/* .markdown-preview-view h5, */
+/* .markdown-preview-view h6, */
+/* .cm-header-1, */
+/* .cm-header-2, */
+/* .cm-header-3, */
+/* .cm-header-4, */
+/* .cm-header-5, */
+/* .cm-header-6 { */
+/*   color: #4784e6 !important; */
+/* } */

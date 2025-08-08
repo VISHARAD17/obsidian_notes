@@ -1,9 +1,9 @@
 {
-  "accentColor": "#3843d6",
+  "accentColor": "",
   "theme": "moonstone",
   "cssTheme": "",
   "translucency": false,
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "Assistant",
   "interfaceFontFamily": "Apple Braille",

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CoFileDocument",
+      "LiCode2",
       "LiCode",
       "CoCode",
-      "CoBook",
-      "FabYoutube",
-      "RiWhatsappFill"
+      "CoBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -77,12 +77,9 @@
   "IMP links.md": "LiLink",
   "system_design/concepts/ACID.md": "CoFileDocument",
   "DSA": "RiDashboardHorizontalFill",
-  "DSA/Dynamic Programming.md": {
-    "iconName": "LiCode",
-    "iconColor": "#0e39e1"
-  },
-  "DSA/Graphs.md": "LiCode",
-  "DSA/Arrays.md": "LiCode",
+  "DSA/Dynamic Programming.md": "LiCode2",
+  "DSA/Graphs.md": "LiCode2",
+  "DSA/Arrays.md": "LiCode2",
   "SQL.md": {
     "iconName": "FasDatabase",
     "iconColor": "#f28a36"
@@ -91,5 +88,7 @@
   "DSA/Sorting.md": "LiCode",
   "DSA/Searching.md": "LiCode",
   "system_design/HLD/Instagran.md": "CoBook",
-  "system_design/HLD/Uber.md": "CoBook"
+  "system_design/HLD/Uber.md": "CoBook",
+  "Core CS/operating_system/Deadlocks.md": "CoFileDocument",
+  "Core CS/operating_system/Introduction.md": "CoFileDocument"
 }

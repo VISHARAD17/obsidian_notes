@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3eae78c77ce397b6",
+        "id": "2b1fdde12c7aacff",
         "type": "tabs",
         "children": [
           {
-            "id": "883d460da0b4b067",
+            "id": "33dd10636bb46730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "system_design/concepts/APIs.md",
+                "file": "DSA/Dynamic Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "APIs"
+              "title": "Dynamic Programming"
             }
           }
         ]
@@ -95,12 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "system_design/concepts/APIs.md",
+                "file": "system_design/HLD/Spotify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from APIs"
+              "title": "Outgoing links from Spotify"
             }
           },
           {
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "system_design/concepts/APIs.md",
+                "file": "system_design/HLD/Spotify.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of APIs"
+              "title": "Outline of Spotify"
             }
           },
           {
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system_design/concepts/APIs.md",
+                "file": "system_design/HLD/Spotify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for APIs"
+              "title": "Backlinks for Spotify"
             }
           }
         ],
@@ -171,35 +171,35 @@
       "sheet-plus:Create excel file": false
     }
   },
-  "active": "883d460da0b4b067",
+  "active": "33dd10636bb46730",
   "lastOpenFiles": [
+    "DSA/Graphs.md",
+    "DSA/Sorting.md",
+    "DSA/Searching.md",
+    "DSA/Dynamic Programming.md",
+    "DSA/Arrays.md",
+    "Next switch.md",
+    "TODOs.md",
+    "Excalidraw/deadlock_resource_allocation_graph.excalidraw.md",
     "system_design/HLD/Uber.md",
-    "system_design/concepts/APIs.md",
-    "Excalidraw/uber.excalidraw.md",
+    "system_design/HLD/Spotify.md",
+    "system_design/excel-drawings/spotify.excalidraw.md",
+    "Excalidraw/intro_operating_system.excalidraw.md",
+    "system_design/HLD/Youtube.md",
+    "system_design/HLD/WhatsApp.md",
+    "system_design/HLD/Instagran.md",
+    "Excalidraw/Drawing 2025-08-03 10.01.19.excalidraw.md",
+    "DSA Sheet.md",
     "system_design/excel-drawings/instagram.excalidraw.md",
+    "system_design/excel-drawings/uber.excalidraw.md",
+    "Excalidraw/multiple_instances.excalidraw.md",
+    "Core CS/operating_system/Deadlocks.md",
+    "Core CS/operating_system/Introduction.md",
+    "system_design/concepts/APIs.md",
     "system_design/concepts/ACID.md",
     "system_design/concepts/Availability.md",
     "system_design/System Design.md",
-    "system_design/HLD/Instagran.md",
-    "system_design/excel-drawings/spotify.excalidraw.md",
-    "system_design/HLD/WhatsApp.md",
-    "system_design/excel-drawings/youtube.excalidraw.md",
-    "system_design/HLD/Spotify.md",
-    "system_design/excel-drawings/instagram_db_design.excalidraw.md",
-    "[instagram.excalidraw.md",
-    "system_design/HLD/Youtube.md",
-    "system_design/excel-drawings/whatsapp.ecalidraw.md",
-    "system_design/excel-drawings/Untitled.md",
-    "system_design/excel-drawings/Drawing 2025-08-02 18.32.25.excalidraw.md",
     "Excalidraw",
-    "Excalidraw/allIcons.md",
-    "Excalidraw/Drawing 2025-08-02 16.47.08.excalidraw.md",
-    "system_design/concepts/CAP theorem.md",
-    "system_design/concepts/Scalability.md",
-    "system_design/concepts/SQL vs NoSQL.md",
-    "system_design/concepts/Load Balancer.md",
-    "system_design/concepts/Hashing.md",
-    "AWS/Amazon Compute.md",
     "Pasted Image 20250802141827_312.png",
     "Diagram.svg",
     "system_design_drawings/Spotify.drawio",
