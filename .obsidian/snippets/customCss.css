@@ -66,17 +66,6 @@ body.fancy-cursor .mod-cm6 .cm-line {
     caret-color: var(--text-accent) !important;
 }
 
-.cm-quote {
-    background-color: #d7e4f7;
-    padding: 0.15em;
-}
-
-/* For Reading Mode */
-.markdown-preview-view blockquote {
-    background-color: #d7e4f7;
-    padding: 0.15em;
-  }
-
 /* Change color for all headers */
 /* .markdown-preview-view h1, */
 /* .markdown-preview-view h2, */

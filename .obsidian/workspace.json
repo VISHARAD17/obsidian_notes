@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2b1fdde12c7aacff",
+        "id": "026d67fa12f56667",
         "type": "tabs",
         "children": [
           {
-            "id": "33dd10636bb46730",
+            "id": "55b90a75ecb21c71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Dynamic Programming.md",
+                "file": "Coding principles/Coding Principles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Programming"
+              "title": "Coding Principles"
             }
           }
         ]
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "system_design/HLD/Spotify.md",
+                "file": "TODOs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Spotify"
+              "title": "Backlinks for TODOs"
             }
           }
         ],
@@ -167,38 +167,39 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "sheet-plus:Create excel file": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "33dd10636bb46730",
+  "active": "55b90a75ecb21c71",
   "lastOpenFiles": [
-    "DSA/Graphs.md",
-    "DSA/Sorting.md",
-    "DSA/Searching.md",
-    "DSA/Dynamic Programming.md",
-    "DSA/Arrays.md",
+    "system design/System Design.md",
+    "Format.md",
+    "IMP links.md",
     "Next switch.md",
+    "Interview Preparation.md",
+    "SQL.md",
+    "System_Design_Roadmap.md",
     "TODOs.md",
-    "Excalidraw/deadlock_resource_allocation_graph.excalidraw.md",
-    "system_design/HLD/Uber.md",
-    "system_design/HLD/Spotify.md",
-    "system_design/excel-drawings/spotify.excalidraw.md",
-    "Excalidraw/intro_operating_system.excalidraw.md",
-    "system_design/HLD/Youtube.md",
-    "system_design/HLD/WhatsApp.md",
-    "system_design/HLD/Instagran.md",
-    "Excalidraw/Drawing 2025-08-03 10.01.19.excalidraw.md",
-    "DSA Sheet.md",
-    "system_design/excel-drawings/instagram.excalidraw.md",
-    "system_design/excel-drawings/uber.excalidraw.md",
-    "Excalidraw/multiple_instances.excalidraw.md",
-    "Core CS/operating_system/Deadlocks.md",
-    "Core CS/operating_system/Introduction.md",
-    "system_design/concepts/APIs.md",
-    "system_design/concepts/ACID.md",
-    "system_design/concepts/Availability.md",
-    "system_design/System Design.md",
+    "Coding principles/Coding Principles.md",
+    "Coding principles",
+    "system design/concepts/Hashing.md",
+    "system design/concepts/CAP theorem.md",
+    "system design/concepts/APIs.md",
+    "system design/concepts/3. ACID.md",
+    "system design/concepts/2. Scalability.md",
+    "system design/concepts/1. Availability.md",
+    "Design Patterns/creational patterns/1. Abstract Factory Pattern.md",
+    "Design Patterns/creational patterns/3. Factory Pattern.md",
+    "Design Patterns/creational patterns/2. Builder Pattern.md",
+    "DSA/1. Dynamic Programming.md",
+    "Design Patterns/structoral patterns/1. Decorator Pattern.md",
+    "system design/LLD/LLD.md",
+    "system design/LLD/3. Design StackOverflow.md",
+    "system design/LLD/2. Design Elevator.md",
+    "system design/LLD/1. Design ATM.md",
+    "system design/HLD/5. Youtube.md",
+    "system design/HLD/4. WhatsApp.md",
+    "Core CS/excalidraw_drawings",
     "Excalidraw",
     "Pasted Image 20250802141827_312.png",
     "Diagram.svg",
@@ -216,8 +217,6 @@
     "Pasted image 20250725231141.png",
     "Books",
     "SQL",
-    "AWS",
-    "Mutithreading",
     "Excalidraw/svg/Res_Elastic-Load-Balancing_Network-Load-Balancer_48.svg",
     "Untitled.canvas",
     "Untitled 1.canvas",

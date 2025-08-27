@@ -1,6 +1,8 @@
 - [System Design One](http://newsletter.systemdesign.one/archive)
 - - [Vaibhav taneja](https://www.linkedin.com/in/vaibhav-taneja-7297003/)
 
+### **DSA sheet**
+- [sheet](https://docs.google.com/spreadsheets/d/1MzcEK9ZiqJRmpIQnQNAgd21Bb54EC60PKhTBHGBkug8/edit?gid=466426501#gid=466426501)
 
 
 
