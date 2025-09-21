@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/1. Dynamic Programming.md",
+                "file": "Design Patterns/Design Patterns.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1. Dynamic Programming"
+              "title": "Design Patterns"
             }
           }
         ]
@@ -162,6 +162,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -170,35 +171,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55b90a75ecb21c71",
+  "active": "d136a00e414c91b0",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-08-29 22.38.02.excalidraw.md",
-    "DSA/1. Dynamic Programming.md",
+    "Design Patterns/structoral patterns/1. Decorator Pattern.md",
+    "Design Patterns/creational patterns/1. Abstract Factory Pattern.md",
+    "Design Patterns/creational patterns/2. Builder Pattern.md",
+    "Design Patterns/creational patterns/3. Factory Pattern.md",
+    "Design Patterns/creational patterns/4. Singleton Pattern.md",
+    "system design/concepts/1. Availability.md",
+    "system design/concepts/Storage.md",
+    "system design/concepts/SQL vs NoSQL.md",
+    "system design/concepts/Replication.md",
+    "system design/concepts/Load Balancer.md",
+    "system design/concepts/Hashing.md",
+    "system design/concepts/CAP theorem.md",
+    "system design/concepts/APIs.md",
     "system design/concepts/3. ACID.md",
+    "system design/concepts/2. Scalability.md",
+    "system design/hld drawings/instagram.excalidraw.md",
+    "system design/hld drawings/instagram_db_design.excalidraw.md",
+    "DSA/1. Dynamic Programming.md",
+    "som.md",
+    "Excalidraw/Drawing 2025-08-29 22.38.02.excalidraw.md",
     "Coding principles/Coding Principles.md",
     "system design/System Design.md",
     "Format.md",
     "IMP links.md",
     "Next switch.md",
     "Interview Preparation.md",
-    "SQL.md",
-    "System_Design_Roadmap.md",
-    "TODOs.md",
     "Coding principles",
-    "system design/concepts/Hashing.md",
-    "system design/concepts/CAP theorem.md",
-    "system design/concepts/APIs.md",
-    "system design/concepts/2. Scalability.md",
-    "system design/concepts/1. Availability.md",
-    "Design Patterns/creational patterns/1. Abstract Factory Pattern.md",
-    "Design Patterns/creational patterns/3. Factory Pattern.md",
-    "Design Patterns/creational patterns/2. Builder Pattern.md",
-    "Design Patterns/structoral patterns/1. Decorator Pattern.md",
-    "system design/LLD/LLD.md",
-    "system design/LLD/3. Design StackOverflow.md",
-    "system design/LLD/2. Design Elevator.md",
-    "system design/LLD/1. Design ATM.md",
-    "system design/HLD/5. Youtube.md",
     "Core CS/excalidraw_drawings",
     "Excalidraw",
     "Pasted Image 20250802141827_312.png",

@@ -43,22 +43,26 @@ body {
 }
 
 
-.HyperMD-codeblock, :not(pre) > code[class*="language-"], pre[class*="language-"] {
-    --code-size: 14px;
-    --code-normal: #d4d4d4;
-    --code-comment: #6a9a56;
-    --code-function: #dcdcaa;
-    --code-important: #f44747;
-    --code-keyword: #c586c0;
-    --code-operator: #d4d4d4;
-    --code-property: #9cdcfe;
-    --code-punctuation: #cccccc;
-    --code-string: #ce9178;
-    --code-tag: #569cd6;
-    --code-value: #b5cea8;
-    --code-background: #222222;
 
+.HyperMD-codeblock,
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    --code-size: 14px;
+    --code-normal: #333333;        /* Main text - dark gray */
+    --code-comment: #008000;       /* Comments - green */
+    --code-function: #795e26;      /* Function names - brown */
+    --code-important: #d16969;     /* Important/error - red */
+    --code-keyword: #0000ff;       /* Keywords - blue */
+    --code-operator: #333333;      /* Operators - dark gray */
+    --code-property: #795e26;      /* Properties - brown */
+    --code-punctuation: #333333;   /* Punctuation - dark gray */
+    --code-string: #a31515;        /* Strings - dark red */
+    --code-tag: #800000;           /* Tags - maroon */
+    --code-value: #098658;         /* Values/numbers - green */
+    --code-background: #f5f5f5;    /* Background - white */
+    /* border: 1px solid #e0e0e0;  */
 }
+
 
 body.fancy-cursor .markdown-source-view.mod-cm6 .cm-content,
 body .markdown-source-view.mod-cm6 .cm-content,
