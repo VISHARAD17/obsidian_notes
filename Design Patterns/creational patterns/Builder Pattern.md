@@ -1,4 +1,4 @@
-> **Builder is a creational design pattern that lets you construct complex step by step. The pattern allows you to produce different types and representations of an object using the same construction code. This is basically example of encapsulation, a collection of related method.**
+> Builder is a creational design pattern that lets you construct complex step by step. The pattern allows you to produce different types and representations of an object using the same construction code. This is basically example of encapsulation, a collection of related method.
 
 #### **Applications :**
 - Used when creating complex objects. ex. School object -- professor + student + courses etc.
@@ -11,7 +11,8 @@
 | + buildRoof()        |
 | + buildGarage()      |
 | + getResult(): House |
-#### **Implementation :
+#### Implementation
+
 - Create an `interface` with common function/methods and then implement those using different builder classes
 ```java
 interface Builder {

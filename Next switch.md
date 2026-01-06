@@ -1,33 +1,11 @@
-### **40L base - 1 Year**
-
-Try for pune or mumbai IT companies, but offered more package switch to hyderabad or banglore ( hyderabad preffered )
-- get an offer and then ask current company to match it.
-
-GoDaddy, Nutanix, Arista Network, Amazon, Cohesity.
-
-
-
 #### **Hyderabad**
 - deliveroo
 - salesforce
 
 #### **Pune**
-- OneCard ( 22L Base )
+- OneCard 
 - MindTickle 
 - mastercard
-	- `vector<int> something`
-
-### **My Career Progression**
-
-```mermaid
-xychart-beta
-    title "My Salary"
-    x-axis [July 2023, August 2025]
-    y-axis "Salary" 10 --> 50
-    line [17.6, 26.4]
-   ```
-
-
 from leetcode 
 
 OLA  
@@ -70,3 +48,43 @@ Helpshift
 Sclumberger  
 AppZen  
 Integral Ad Science
+
+
+### Singapore
+- **Grab** -- not much as of now, requires AI and GO [career portal](https://www.grab.careers/en/jobs/) delivery, ride, fintech app, head quarter in singapore
+
+- **Sea Group (Shopee, Garena, SeaMoney)**: One of Asia’s leading internet companies with a strong focus on e-commerce (Shopee), gaming (Garena), and fintech (SeaMoney), all headquartered in Singapore.
+    - [portal](https://careers.shopee.ph/jobs?channel=10001) quite few openings
+	- requirenments :
+- **Lazada**: A leading Southeast Asian e-commerce platform with headquarters and chief engineering units in Singapore.
+    
+- **Razer**: Known for gaming hardware, software, and financial tech products, with a major product and engineering presence in Singapore.
+    
+- **Carousell**: A popular mobile classifieds marketplace startup originally from Singapore.
+    
+- **PropertyGuru**: Major proptech player in Southeast Asia, headquartered in Singapore.
+    
+- **Nium (formerly InstaReM)**: B2B payments, cross-border payments, and fintech product leader based in Singapore.
+    
+- **PatSnap**: Innovator in intellectual property and R&D analytics solutions, based in Singapore.
+    
+- **SpareParts3D**: 3D printing and supply chain tech, headquartered in Singapore.
+    
+- **RedMart**: Online grocery and logistics, product-driven and based out of Singapore (now merged with Lazada).
+    
+- **Coinhako**: Leading crypto and digital assets trading platform with core engineering based in Singapore.
+    
+- **ThoughtWorks APAC**: While originally global, their Singapore office operates with regional product autonomy.
+    
+- **ShopBack**: Cashback and rewards platform, started in Singapore, engineering operates mostly from HQ.
+    
+- **Biofourmis**: Digital health and AI-powered healthcare solutions, headquartered in Singapore.
+    
+- **Circles.Life**: Digital telecom and lifestyle platform with a product-first approach, based out of Singapore. 
+
+
+Things I need to learn
+- AI agents, LLMs, langchain
+- concurrent systems ( concepts and example at work )
+- 
+- 
