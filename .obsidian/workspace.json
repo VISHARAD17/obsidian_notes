@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8decf527ad29179a",
+        "id": "89dac59a93157d5c",
         "type": "tabs",
         "children": [
           {
-            "id": "a6059586949b029b",
+            "id": "c747e0e257ac4946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/Dynamic Programming/problems/1 - Longest Palindromic Subsequence.md",
+                "file": "System Design/concepts/1. Availability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1 - Longest Palindromic Subsequence"
-            }
-          },
-          {
-            "id": "2c48ae981e7cea4f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "59999258e88c2770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "System Design"
-            }
-          },
-          {
-            "id": "568cbecb0e5d5622",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. Availability"
             }
           }
         ]
@@ -207,37 +170,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6059586949b029b",
+  "active": "d136a00e414c91b0",
   "lastOpenFiles": [
-    "Design Patterns/creational patterns/1 - Abstract Factory Pattern.md",
-    "System Design.md",
-    "java/1. Core Java.md",
-    "System Design/concepts/SQL vs NoSQL.md",
+    "System Design/concepts/APIs.md",
     "System Design/concepts/3. ACID.md",
-    "System Design/concepts/2. Scalability.md",
     "System Design/concepts/1. Availability.md",
-    "AWS/1 - Elastic Cloud Compute EC2.md",
-    "Next switch.md",
-    "TODOs.md",
-    "SQL.md",
-    "DSA/Dynamic Programming/Note.md",
-    "Core CS/computer networks/1. Introduction.md",
-    "Core CS/computer networks/2. Second Chapter.md",
-    "Coding principles/SOLID Principles.md",
-    "Excalidraw/Drawing 2025-08-03 10.01.19.excalidraw.md",
-    "Excalidraw/7_state_model.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-29 22.38.02.excalidraw.md",
-    "Excalidraw/5_state_model.excalidraw.md",
-    "Excalidraw/test_drawing.md",
-    "System Design/HLD/5. Youtube.md",
+    "System Design/concepts/2. Scalability.md",
+    "System Design/concepts/Storage.md",
+    "System Design/concepts/SQL vs NoSQL.md",
+    "System Design/concepts/Replication.md",
+    "System Design/HLD drawings/instagram.excalidraw.md",
+    "System Design/HLD drawings/spotify.excalidraw.md",
+    "System Design/HLD drawings/instagram_db_design.excalidraw.md",
     "System Design/HLD/4. WhatsApp.md",
     "System Design/HLD/3. Spotify.md",
     "System Design/HLD/2. Instagran.md",
+    "System Design/HLD drawings/youtube.excalidraw.md",
+    "System Design/HLD/5. Youtube.md",
     "System Design/HLD/1. Uber.md",
-    "Notes.md",
+    "Excalidraw/5_state_model.excalidraw.md",
+    "Design Patterns/Design Patterns.md",
+    "Coding principles/SOLID Principles.md",
+    "Core CS/computer networks/2. Second Chapter.md",
+    "Core CS/computer networks/1. Introduction.md",
+    "SDE prep resources.md",
+    "IMP links.md",
+    "Design Patterns/creational patterns/Builder Pattern.md",
+    "Design Patterns/creational patterns/4. Singleton Pattern.md",
+    "Design Patterns/creational patterns/3. Factory Pattern.md",
+    "DSA/Data Structures",
     "DSA/Dynamic Programming/problems",
     "DSA/Strings",
-    "DSA/Dynamic Programming",
+    "DSA/Algorithms",
     "DSA/algorithms/dynamic programming",
     "DSA/algorithms",
     "timepass.canvas",
@@ -247,7 +211,6 @@
     "Pasted Image 20250802141827_312.png",
     "Diagram.svg",
     "system_design_drawings/Spotify.drawio",
-    "system_design_drawings",
     "Excalidraw/svg/Res_Amazon-Simple-Queue-Service_Queue_48.svg",
     "Excalidraw/svg/Res_Amazon-ElastiCache_Cache-Node_48.svg",
     "Excalidraw/svg/AWS-Cloud_32_Dark.svg",

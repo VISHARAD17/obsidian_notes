@@ -1,5 +1,5 @@
 body {
-  --file-line-width: 900px;
+  --file-line-width: 1800px;
 }
 
  /* Inline code: background and font color  */
@@ -85,33 +85,3 @@ body.fancy-cursor .mod-cm6 .cm-line {
 /* .cm-header-6 { */
 /*   color: #4784e6 !important; */
 /* } */
-
-
-
-/* for markdown column plugin ------------- */
-
-/*Remove spacing between columns */
-.block-language-column {
-    gap: 0 !important;
-    column-gap: 0 !important;
-}
-
-/* Remove shadow from columns */
-.block-language-column > div {
-    box-shadow: none !important;
-}
-
-/* Ensure borders are visible */
-.block-language-column > div {
-    border: 1px solid var(--background-modifier-border);
-}
-
-/* Optional: Remove padding if you want columns truly flush */
-.block-language-column > div {
-    padding: 0 !important;
-}
-
-/* If you want to keep some internal padding for readability */
-.block-language-column > div {
-    padding: 10px !important;
-}
