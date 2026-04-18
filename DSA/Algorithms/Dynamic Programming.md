@@ -1,4 +1,5 @@
-
+	
+Dynamic programming is basically optimization over recursion by saving already computed subproblem.
 ### 1. Longest common subsequence
 `````col
 ````col-md
