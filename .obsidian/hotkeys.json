@@ -16,14 +16,6 @@
       "key": "M"
     }
   ],
-  "highlightr-plugin:highlighter-plugin-menu": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
   "highlightr-plugin:unhighlight": [
     {
       "modifiers": [
@@ -39,6 +31,14 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "highlightr-plugin:highlighter-plugin-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }

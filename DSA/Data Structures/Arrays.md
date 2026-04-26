@@ -1,24 +1,19 @@
-### Java
-- ArrayList in java ( Dynamic List )
-```java
-ArrayList<Integer> list = new List<>();
-```
 
-code for 2 columns
+### 1. Problem no 1
 `````col
 ````col-md
-d
+Element `ArrayList<Integer>nums(n, 0)`
+
 ````
 ````col-md
-d
 
+```java
+public static void main(Strings [] args){
+	System.out.println("hello String");
+}
+```
 ````
+
+
 `````
 
-### Problems
-
-#### 1. Buy and Sell stocks
-
-we buy stock today at `i_th` day and then sell it for 
-
-``
