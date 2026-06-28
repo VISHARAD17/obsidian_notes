@@ -1,0 +1,311 @@
+# DSA Progress Tracker
+
+**Progress: 9 / 250 problems completed (3.6%)**
+
+---
+
+- [ ] Arrays (29 problems)
+	- [x] 1. contains duplicate
+	- [x] 2. move zeros
+	- [x] 3. find all numbers disappeared in an array
+	- [x] 4. best time to buy and sell stock
+	- [x] 5. maximum subarray
+	- [x] 6. product of array except self
+	- [x] 7. find the duplicate number
+	- [x] 8. maximum product subarraay
+	- [x] 9. rotate array
+	- [x] 10. first missing positive
+	- [ ] 11. running sum of 1D array
+	- [ ] 12. range sum query
+	- [ ] 13. subarray sum equals K
+	- [ ] 14. continuous array
+	- [ ] 15. minimum size subarray sum
+	- [ ] 16. xor queries of a subarray
+	- [ ] 17. tow sum II
+	- [ ] 18. 3Sum
+	- [ ] 19. 3Sum closest
+	- [ ] 20. container with most water
+	- [ ] 21. trapping rain water
+	- [ ] 22. sort colors
+	- [ ] 23. maximum average subarray I
+	- [ ] 24. longest substring without repeating chars
+	- [ ] 25. permutation in string
+	- [ ] 26. find all anagrams in a string
+	- [ ] 27. longest repeating character replacement
+	- [ ] 28. minimum window substring
+	- [ ] 29. Sliding window maimum
+
+- [ ] Strings (15 problems)
+	- [x] 30. Reverse Words in a String
+	- [x] 31. Longest Common Prefix
+	- [ ] 32. String to Integer
+	- [ ] 33. Roman to Integer
+	- [ ] 34. Zigzag Conversion
+	- [ ] 35. Count and Say
+	- [ ] 36. Valid Palindrome
+	- [ ] 37. Longest Palindromic Substring
+	- [ ] 38. Palindromic Substrings
+	- [ ] 39. Valid Palindrome II
+	- [ ] 40. Encode and Decode Strings
+	- [ ] 41. Find the Index of the First Occurrence in a String
+	- [ ] 42. Repeated Substring Pattern
+	- [ ] 43. Group Anagrams
+	- [ ] 44. Implement strStr() / Rabin-Karp
+
+- [ ] Hashing (11 problems)
+	- [x] 45. Two Sum`
+		- just use hashes
+	- [x] 46. Valid Anagram
+		- just compare their hashMaps
+	- [ ] 47. Top K Frequent Elements
+	- [ ] 48. Longest Consecutive Sequence
+	- [ ] 49. Valid Sudoku
+	- [ ] 50. LRU Cache
+	- [ ] 51. Insert Delete GetRandom O(1)
+	- [ ] 52. First Unique Character in a String
+	- [ ] 53. Ransom Note
+	- [ ] 54. Word Pattern
+	- [ ] 55. LFU Cache
+
+- [ ] Binary Search (14 problems)
+	- [ ] 56. Binary Search
+	- [ ] 57. Search Insert Position
+	- [ ] 58. First Bad Version
+	- [ ] 59. Search a 2D Matrix
+	- [ ] 60. Sqrt(x)
+	- [ ] 61. Median of Two Sorted Arrays
+	- [ ] 62. Find Minimum in Rotated Sorted Array
+	- [ ] 63. Search in Rotated Sorted Array
+	- [ ] 64. Search in Rotated Sorted Array II
+	- [ ] 65. Find Peak Element
+	- [ ] 66. Koko Eating Bananas
+	- [x] 67. Capacity to Ship Packages Within D Days
+	- [ ] 68. Time Based Key-Value Store
+	- [ ] 69. Split Array Largest Sum
+
+- [ ] Linked Lists (14 problems)
+	- [ ] 70. Reverse Linked List
+	- [ ] 71. Merge Two Sorted Lists
+	- [ ] 72. Remove Nth Node From End
+	- [ ] 73. Swap Nodes in Pairs
+	- [ ] 74. Reverse Nodes in k-Group
+	- [ ] 75. Linked List Cycle
+	- [ ] 76. Linked List Cycle II
+	- [ ] 77. Middle of the Linked List
+	- [ ] 78. Palindrome Linked List
+	- [ ] 79. Intersection of Two Linked Lists
+	- [ ] 80. Reorder List
+	- [ ] 81. Merge K Sorted Lists
+	- [ ] 82. LRU Cache
+	- [ ] 83. Copy List with Random Pointer
+
+- [ ] Stacks (13 problems)
+	- [x] 84. Valid Parentheses
+	- [x] 85. Min Stack
+	- [x] 86. Implement Stack using Queues
+	- [x] 87. Daily Temperatures
+	- [x] 88. Next Greater Element I
+	- [ ] 89. Next Greater Element II
+	- [ ] 90. Car Fleet
+	- [ ] 91. Largest Rectangle in Histogram
+	- [ ] 92. Sum of Subarray Minimums
+	- [ ] 93. Maximal Rectangle
+	- [ ] 94. Evaluate Reverse Polish Notation
+	- [ ] 95. Basic Calculator II
+	- [ ] 96. Decode String
+
+- [ ] Queues & Deques (4 problems)
+	- [ ] 97. Implement Queue using Stacks
+	- [ ] 98. Design Circular Queue
+	- [ ] 99. Sliding Window Maximum
+	- [ ] 100. Jump Game VI
+
+- [ ] Trees (24 problems)
+	- [ ] 101. Invert Binary Tree
+	- [ ] 102. Path Sum
+	- [ ] 103. Path Sum II
+	- [ ] 104. Sum Root to Leaf Numbers
+	- [ ] 105. Maximum Depth of Binary Tree
+	- [ ] 106. Diameter of Binary Tree
+	- [ ] 107. Balanced Binary Tree
+	- [ ] 108. Binary Tree Maximum Path Sum
+	- [ ] 109. Count Good Nodes in Binary Tree
+	- [ ] 110. Binary Tree Level Order Traversal
+	- [ ] 111. Binary Tree Right Side View
+	- [ ] 112. Binary Tree Zigzag Level Order Traversal
+	- [ ] 113. Average of Levels in Binary Tree
+	- [ ] 114. Same Tree
+	- [ ] 115. Subtree of Another Tree
+	- [ ] 116. Symmetric Tree
+	- [ ] 117. Validate Binary Search Tree
+	- [ ] 118. Lowest Common Ancestor of a BST
+	- [ ] 119. Lowest Common Ancestor of a Binary Tree
+	- [ ] 120. Kth Smallest Element in a BST
+	- [ ] 121. Construct Binary Tree from Preorder and Inorder
+	- [ ] 122. Serialize and Deserialize Binary Tree
+	- [ ] 123. Flatten Binary Tree to Linked List
+	- [ ] 124. Binary Tree Vertical Order Traversal
+
+- [ ] Tries (3 problems)
+	- [ ] 125. Implement Trie (Prefix Tree)
+	- [ ] 126. Design Add and Search Words Data Structure
+	- [ ] 127. Word Search II
+
+- [ ] Heaps & Priority Queues (9 problems)
+	- [ ] 128. Kth Largest Element in an Array
+	- [ ] 129. K Closest Points to Origin
+	- [ ] 130. Top K Frequent Words
+	- [ ] 131. Find Median from Data Stream
+	- [ ] 132. Task Scheduler
+	- [ ] 133. Reorganize String
+	- [ ] 134. Merge K Sorted Lists
+	- [ ] 135. Ugly Number II
+	- [ ] 136. Smallest Range Covering Elements from K Lists
+
+- [ ] Graphs: DFS (10 problems)
+	- [ ] 137. Number of Islands
+	- [ ] 138. Max Area of Island
+	- [ ] 139. Flood Fill
+	- [ ] 140. Surrounded Regions
+	- [ ] 141. Number of Enclaves
+	- [ ] 142. Clone Graph
+	- [ ] 143. Course Schedule
+	- [ ] 144. Path With Maximum Probability
+	- [ ] 145. Pacific Atlantic Water Flow
+	- [ ] 146. Graph Valid Tree (Undirected Cycle Detection)
+
+- [ ] Graphs: BFS (8 problems)
+	- [ ] 147. 01 Matrix
+	- [ ] 148. Rotting Oranges
+	- [ ] 149. Walls and Gates
+	- [ ] 150. Shortest Path in Binary Matrix
+	- [ ] 151. Word Ladder
+	- [ ] 152. Snakes and Ladders
+	- [ ] 153. Open the Lock
+	- [ ] 154. Course Schedule II
+
+- [ ] Graphs: Topological Sort (4 problems)
+	- [ ] 155. Course Schedule
+	- [ ] 156. Course Schedule II
+	- [ ] 157. Alien Dictionary
+	- [ ] 158. Sequence Reconstruction
+
+- [ ] Graphs: Union Find (DSU) (5 problems)
+	- [ ] 159. Number of Connected Components
+	- [ ] 160. Graph Valid Tree
+	- [ ] 161. Redundant Connection
+	- [ ] 162. Accounts Merge
+	- [ ] 163. Most Stones Removed with Same Row or Column
+
+- [ ] Graphs: Shortest Path (6 problems)
+	- [ ] 164. Network Delay Time
+	- [ ] 165. Cheapest Flights Within K Stops
+	- [ ] 166. Path With Minimum Effort
+	- [ ] 167. Find the City With the Smallest Number of Neighbors
+	- [ ] 168. Swim in Rising Water
+	- [ ] 169. Min Cost to Connect All Points
+
+- [ ] Dynamic Programming: 1D (15 problems)
+	- [ ] 170. Climbing Stairs
+	- [ ] 171. House Robber
+	- [ ] 172. House Robber II
+	- [ ] 173. Jump Game
+	- [ ] 174. Jump Game II
+	- [ ] 175. Word Break
+	- [ ] 176. Decode Ways
+	- [ ] 177. Coin Change
+	- [ ] 178. Coin Change II
+	- [ ] 179. Counting Bits
+	- [ ] 180. Longest Increasing Subsequence
+	- [ ] 181. Partition Equal Subset Sum
+	- [ ] 182. Best Time to Buy and Sell Stock with Cooldown
+	- [ ] 183. Best Time to Buy and Sell Stock IV
+	- [ ] 184. Longest Increasing Path in a Matrix
+
+- [ ] Dynamic Programming: 2D (10 problems)
+	- [ ] 185. Unique Paths
+	- [ ] 186. Minimum Path Sum
+	- [ ] 187. Unique Paths II
+	- [ ] 188. Longest Common Subsequence
+	- [ ] 189. Edit Distance
+	- [ ] 190. Interleaving String
+	- [ ] 191. Distinct Subsequences
+	- [ ] 192. Maximal Square
+	- [ ] 193. Regular Expression Matching
+	- [ ] 194. Wildcard Matching
+
+- [ ] Dynamic Programming: Intervals (4 problems)
+	- [ ] 195. Longest Palindromic Substring
+	- [ ] 196. Palindromic Substrings
+	- [ ] 197. Minimum Cost Tree From Leaf Values
+	- [ ] 198. Burst Balloons
+
+- [ ] Dynamic Programming: Knapsack (5 problems)
+	- [ ] 199. Partition Equal Subset Sum
+	- [ ] 200. Last Stone Weight II
+	- [ ] 201. Target Sum
+	- [ ] 202. Coin Change II
+	- [ ] 203. Ones and Zeroes
+
+- [ ] Dynamic Programming: Trees & Advanced (2 problems)
+	- [ ] 204. House Robber III
+	- [ ] 205. Cherry Pickup II
+
+- [ ] Intervals & Greedy (7 problems)
+	- [ ] 206. Meeting Rooms
+	- [ ] 207. Merge Intervals
+	- [ ] 208. Insert Interval
+	- [ ] 209. Non-overlapping Intervals
+	- [ ] 210. Meeting Rooms II
+	- [ ] 211. Minimum Number of Arrows to Burst Balloons
+	- [ ] 212. Jump Game
+
+- [ ] Backtracking (11 problems)
+	- [ ] 213. Subsets
+	- [ ] 214. Subsets II
+	- [ ] 215. Permutations
+	- [ ] 216. Permutations II
+	- [ ] 217. Combination Sum
+	- [ ] 218. Combination Sum II
+	- [ ] 219. Palindrome Partitioning
+	- [ ] 220. Word Search
+	- [ ] 221. N-Queens
+	- [ ] 222. Letter Combinations of a Phone Number
+	- [ ] 223. Generate Parentheses
+
+- [ ] Bit Manipulation (7 problems)
+	- [ ] 224. Single Number
+	- [ ] 225. Single Number II
+	- [ ] 226. Missing Number
+	- [ ] 227. Number of 1 Bits
+	- [ ] 228. Counting Bits
+	- [ ] 229. Reverse Bits
+	- [ ] 230. Sum of Two Integers
+
+- [ ] Math & Simulation (7 problems)
+	- [ ] 231. Happy Number
+	- [ ] 232. Reverse Integer
+	- [ ] 233. Pow(x, n)
+	- [ ] 234. Spiral Matrix
+	- [ ] 235. Rotate Image
+	- [ ] 236. Set Matrix Zeroes
+	- [ ] 237. Game of Life
+
+- [ ] Advanced Data Structures (2 problems)
+	- [ ] 238. Range Sum Query — Mutable
+	- [ ] 239. Count of Smaller Numbers After Self
+
+- [ ] Design Problems (3 problems)
+	- [ ] 240. Design Twitter
+	- [ ] 241. Design HashMap
+	- [ ] 242. Implement Stack using Queues
+
+- [ ] Bonus: Critical Patterns (8 problems)
+	- [ ] 243. Longest Substring with At Most K Distinct Characters
+	- [ ] 244. Minimum Remove to Make Valid Parentheses
+	- [ ] 245. Subarray Product Less Than K
+	- [ ] 246. Maximum XOR of Two Numbers in Array
+	- [ ] 247. Critical Connections in a Network
+	- [ ] 248. Longest Valid Parentheses
+	- [ ] 249. Number of Longest Increasing Subsequence
+	- [ ] 250. Design Circular Deque

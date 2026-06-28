@@ -1,45 +1,26 @@
 body {
-  --file-line-width: 1800px;
+  --file-line-width: 1000px;
 }
 
  /* Inline code: background and font color  */
  :not(pre) > code,
  .cm-inline-code {
-   background-color: #F1F1EF !important; /* Your background color */
-   /* color: #EB5757 !important;            /* Your font color */
-    color: #000000 !important;
    border-radius: 4px;
-   padding: 2px 4px;
-   font-size: 0.8em !important;
+   padding: 4px 8px;
+   font-size: var(--font-text-size) !important;
    font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace !important;
  }
 
+body.theme-light :not(pre) > code,
+body.theme-light .cm-inline-code {
+  background-color: #F1F1EF !important;
+  color: #000000 !important;
+}
 
-/* Heading colors - dark background */
-/* .cm-header-1, .markdown-preview-view h1, .markdown-rendered h1 { color: #d6336c; } */
-/* .cm-header-2, .markdown-preview-view h2, .markdown-rendered h2 { color: #56DFCF; } */
-/* .cm-header-3, .markdown-preview-view h3, .markdown-rendered h3 { color: #228be6; } */
-/* .cm-header-4, .markdown-preview-view h4, .markdown-rendered h4 { color: #98CD00; } */
-/* .cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #725CAD; } */
-/* .cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #868e96; } */
-
-/* heading colors for white background */
-/* .cm-header-1, .markdown-preview-view h1, .markdown-rendered h1 { color: #b8003c; }   /* Deep Rose */ */
-/* .cm-header-2, .markdown-preview-view h2, .markdown-rendered h2 { color: #00bfae; }   /* Teal */ */
-/* .cm-header-3, .markdown-preview-view h3, .markdown-rendered h3 { color: #1565c0; }   /* Blue */ */
-/* .cm-header-4, .markdown-preview-view h4, .markdown-rendered h4 { color: #7cb518; }   /* Green */ */
-/* .cm-header-5, .markdown-preview-view h5, .markdown-rendered h5 { color: #6c4fbb; }   /* Purple */ */
-/* .cm-header-6, .markdown-preview-view h6, .markdown-rendered h6 { color: #6c757d; }   /* Gray */ */
-/* Make bold text bolder */
-/* strong, b, */
-/* .cm-strong { */
-/*   font-weight: 1500 !important; /* You can increase to 800 or 900 if you want it even bolder */ */
-/* } */
-
-/* no callout button */
-
-.callout-icon {
-  display: none !important;
+body.theme-dark :not(pre) > code,
+body.theme-dark .cm-inline-code {
+  background-color: #2d2d2d !important;
+  color: #e06c75 !important;
 }
 
 
@@ -47,20 +28,41 @@ body {
 .HyperMD-codeblock,
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    --code-size: 15px;
-    --code-normal: #333333;        /* Main text - dark gray */
-    --code-comment: #008000;       /* Comments - green */
-    --code-function: #795e26;      /* Function names - brown */
-    --code-important: #d16969;     /* Important/error - red */
-    --code-keyword: #0000ff;       /* Keywords - blue */
-    --code-operator: #333333;      /* Operators - dark gray */
-    --code-property: #795e26;      /* Properties - brown */
-    --code-punctuation: #333333;   /* Punctuation - dark gray */
-    --code-string: #a31515;        /* Strings - dark red */
-    --code-tag: #800000;           /* Tags - maroon */
-    --code-value: #098658;         /* Values/numbers - green */
-    --code-background: #f5f5f5;    /* Background - white */
-    /* border: 1px solid #e0e0e0;  */
+    --code-size: 12.5px;
+}
+
+body.theme-light .HyperMD-codeblock,
+body.theme-light :not(pre) > code[class*="language-"],
+body.theme-light pre[class*="language-"] {
+    --code-normal: #333333;
+    --code-comment: #008000;
+    --code-function: #795e26;
+    --code-important: #d16969;
+    --code-keyword: #0000ff;
+    --code-operator: #333333;
+    --code-property: #795e26;
+    --code-punctuation: #333333;
+    --code-string: #a31515;
+    --code-tag: #800000;
+    --code-value: #098658;
+    --code-background: #f5f5f5;
+}
+
+body.theme-dark .HyperMD-codeblock,
+body.theme-dark :not(pre) > code[class*="language-"],
+body.theme-dark pre[class*="language-"] {
+    --code-normal: #d4d4d4;
+    --code-comment: #6a9955;
+    --code-function: #dcdcaa;
+    --code-important: #f44747;
+    --code-keyword: #569cd6;
+    --code-operator: #d4d4d4;
+    --code-property: #9cdcfe;
+    --code-punctuation: #d4d4d4;
+    --code-string: #ce9178;
+    --code-tag: #f44747;
+    --code-value: #b5cea8;
+    --code-background: #333232;
 }
 
 
@@ -85,3 +87,9 @@ body.fancy-cursor .mod-cm6 .cm-line {
 /* .cm-header-6 { */
 /*   color: #4784e6 !important; */
 /* } */
+
+/* Bullet list spacing between dot and text */
+ul li::marker {
+  content: "• ";
+  letter-spacing: 0.5em;
+}
