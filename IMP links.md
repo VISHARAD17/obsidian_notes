@@ -4,8 +4,6 @@
 ### **DSA sheet**
 - [sheet](https://docs.google.com/spreadsheets/d/1MzcEK9ZiqJRmpIQnQNAgd21Bb54EC60PKhTBHGBkug8/edit?gid=466426501#gid=466426501)
 
-
-
 ### **System design posts**
 1. APIs: [https://lnkd.in/dsbwPZ6N](https://lnkd.in/dsbwPZ6N)  
 2. JWTs: [https://lnkd.in/ghtXYRqU](https://lnkd.in/ghtXYRqU)  

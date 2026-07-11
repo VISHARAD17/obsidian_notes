@@ -1,3 +1,4 @@
+```lua
 --- init.java file content
 
 

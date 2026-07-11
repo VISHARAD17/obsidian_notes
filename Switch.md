@@ -1,5 +1,41 @@
 
 
+### Singapore
+- **Grab** -- not much as of now, requires AI and GO [career portal](https://www.grab.careers/en/jobs/) delivery, ride, fintech app, head quarter in singapore
+
+- **Sea Group (Shopee, Garena, SeaMoney)**: One of Asia’s leading internet companies with a strong focus on e-commerce (Shopee), gaming (Garena), and fintech (SeaMoney), all headquartered in Singapore.
+    - [portal](https://careers.shopee.ph/jobs?channel=10001) quite few openings
+	- requirenments :
+- **Lazada**: A leading Southeast Asian e-commerce platform with headquarters and chief engineering units in Singapore.
+    
+- **Razer**: Known for gaming hardware, software, and financial tech products, with a major product and engineering presence in Singapore.
+    
+- **Carousell**: A popular mobile classifieds marketplace startup originally from Singapore.
+    
+- **PropertyGuru**: Major proptech player in Southeast Asia, headquartered in Singapore.
+    
+- **Nium (formerly InstaReM)**: B2B payments, cross-border payments, and fintech product leader based in Singapore.
+    
+- **PatSnap**: Innovator in intellectual property and R&D analytics solutions, based in Singapore.
+    
+- **SpareParts3D**: 3D printing and supply chain tech, headquartered in Singapore.
+    
+- **RedMart**: Online grocery and logistics, product-driven and based out of Singapore (now merged with Lazada).
+    
+- **Coinhako**: Leading crypto and digital assets trading platform with core engineering based in Singapore.
+    
+- **ThoughtWorks APAC**: While originally global, their Singapore office operates with regional product autonomy.
+    
+- **ShopBack**: Cashback and rewards platform, started in Singapore, engineering operates mostly from HQ.
+    
+- **Biofourmis**: Digital health and AI-powered healthcare solutions, headquartered in Singapore.
+    
+- **Circles.Life**: Digital telecom and lifestyle platform with a product-first approach, based out of Singapore. 
+
+
+
+
+
 # Comprehensive List of Companies in Pune (2026)
 
 **Purpose**: Job search and application tracking for professionals in Pune
@@ -616,20 +652,6 @@
 - **Product/SaaS**: 8+ companies
 - **Total Listed in This Document**: **110+ companies**
 - **Estimated Total in Pune**: **500-1,000+ companies** (including all SMEs, GCCs, and unlisted firms)
-
----
-
-**Note**: This list focuses on tech, IT, and startup companies. Pune also has numerous companies in automotive (Bajaj Auto, Tata Motors), manufacturing, pharma (Serum Institute), and other sectors that are not included here but can be researched separately.
-
-**Last Updated**: June 2026
-**Compiled for**: Job search and career opportunities in Pune
-
-
----
-
-## How to Access Complete Company Directories (500-1,000+ Companies)
-
-The companies listed above represent major employers and well-known firms. For **comprehensive directories** including SMEs, GCCs, and all registered companies:
 
 ### **Official Directories:**
 1. **MCCIA (Mahratta Chamber of Commerce)** - Member directory: https://mccia.org/
