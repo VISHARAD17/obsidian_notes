@@ -31,6 +31,7 @@
 - **Biofourmis**: Digital health and AI-powered healthcare solutions, headquartered in Singapore.
     
 - **Circles.Life**: Digital telecom and lifestyle platform with a product-first approach, based out of Singapore. 
+- DBS bank
 
 
 

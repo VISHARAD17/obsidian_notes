@@ -7,9 +7,11 @@
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "customCss"
+  ],
   "baseFontSizeAction": false,
   "nativeMenus": true,
   "showRibbon": false,
-  "showViewHeader": true
+  "showViewHeader": false
 }

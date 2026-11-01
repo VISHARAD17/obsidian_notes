@@ -15,7 +15,7 @@
 	- [x] 8. maximum product subarraay
 	- [x] 9. rotate array
 	- [x] 10. first missing positive
-	- [ ] 11. running sum of 1D array
+	- [x] 11. running sum of 1D array
 	- [ ] 12. range sum query
 	- [ ] 13. subarray sum equals K
 	- [ ] 14. continuous array

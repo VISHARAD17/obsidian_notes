@@ -1,5 +1,3 @@
-# Everything Java
-
 ## 1. Language Essentials
 
 ### Primitives vs Objects (Autoboxing)
