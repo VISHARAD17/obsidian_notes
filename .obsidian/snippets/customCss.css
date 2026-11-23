@@ -1,6 +1,6 @@
-body {
-  --file-line-width: 1000px;
-}
+/* body { */
+/*   --file-line-width: 800px; */
+/* } */
 
  /* Inline code: background and font color  */
  :not(pre) > code,
@@ -23,12 +23,10 @@ body.theme-dark .cm-inline-code {
   color: #e06c75 !important;
 }
 
-
-
 .HyperMD-codeblock,
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    --code-size: 12.5px;
+    --code-size: var(--font-text-size) !important;
 }
 
 body.theme-light .HyperMD-codeblock,
@@ -92,4 +90,55 @@ body.fancy-cursor .mod-cm6 .cm-line {
 ul li::marker {
   content: "• ";
   letter-spacing: 0.5em;
+}
+
+/* Normal text color - slightly less white, excluding bold, italic, headers, etc. */
+body.theme-dark .markdown-preview-view,
+body.theme-dark .markdown-source-view.mod-cm6 .cm-line {
+  color: #B0ACAC !important;
+}
+
+body.theme-dark .markdown-preview-view strong,
+body.theme-dark .markdown-preview-view em,
+body.theme-dark .markdown-preview-view h1,
+body.theme-dark .markdown-preview-view h2,
+body.theme-dark .markdown-preview-view h3,
+body.theme-dark .markdown-preview-view h4,
+body.theme-dark .markdown-preview-view h5,
+body.theme-dark .markdown-preview-view h6,
+body.theme-dark .inline-title,
+body.theme-dark .cm-strong,
+body.theme-dark .cm-em,
+body.theme-dark .cm-header-1,
+body.theme-dark .cm-header-2,
+body.theme-dark .cm-header-3,
+body.theme-dark .cm-header-4,
+body.theme-dark .cm-header-5,
+body.theme-dark .cm-header-6 {
+  color: var(--text-normal) !important;
+}
+
+body.theme-light .markdown-preview-view,
+body.theme-light .markdown-source-view.mod-cm6 .cm-line {
+  color: #2a2a2a !important;
+}
+
+body.theme-light .markdown-preview-view strong,
+body.theme-light .markdown-preview-view em,
+body.theme-light .markdown-preview-view h1,
+body.theme-light .markdown-preview-view h2,
+body.theme-light .markdown-preview-view h3,
+body.theme-light .markdown-preview-view h4,
+body.theme-light .markdown-preview-view h5,
+body.theme-light .markdown-preview-view h6,
+body.theme-light .inline-title,
+body.theme-light .cm-strong,
+body.theme-light .cm-em,
+body.theme-light .cm-header-1,
+body.theme-light .cm-header-2,
+body.theme-light .cm-header-3,
+body.theme-light .cm-header-4,
+body.theme-light .cm-header-5,
+body.theme-light .cm-header-6 {
+  color: var(--text-normal) !important;
 }

@@ -160,7 +160,7 @@ list.sort(Comparator.comparingInt(a -> a[0]));
 list.sort((a, b) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]);
 
 // TRAP: (a - b) can overflow for large ints. Use Integer.compare(a, b) instead.
-Arrays.sort(arr, (a, b) -> Integer.compare(a, b));
+	Arrays.sort(arr, (a, b) -> Integer.compare(a, b));
 ```
 
 ---

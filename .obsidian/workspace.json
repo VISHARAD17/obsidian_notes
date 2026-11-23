@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3f28f971b705e61",
+        "id": "eb63c694e6192e68",
         "type": "tabs",
         "children": [
           {
-            "id": "0e208f51d330c3c0",
+            "id": "cd0ac3301c81a6cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "New questions by opus 5.5.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "New questions by opus 5.5"
+              "title": "New tab"
             }
           }
         ]
@@ -43,7 +38,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -81,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "right": {
     "id": "a4d712a6ec2540e7",
@@ -98,12 +92,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSA/1. Arrays.md",
+                "file": "Everything Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. Arrays"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSA/1. Arrays.md",
+                "file": "Excalidraw/Drawing 2026-11-18 21.39.31.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,10 +146,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1. Arrays"
+              "title": "Backlinks"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,47 +168,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e208f51d330c3c0",
+  "active": "cd0ac3301c81a6cc",
   "lastOpenFiles": [
-    "IMP links.md",
-    "Everything Java.md",
-    "DSA tracker.md",
-    "New questions by opus 5.5.md",
-    "DB migration.md",
-    "Office neovim config.md",
-    "Pasted image 20260808121832.png",
-    "Preparation resource list.md",
-    "Switch.md",
-    "test.canvas",
-    "Temp diet note.md",
-    "resume.md",
-    "Currently studying.md",
-    "DSA/1. Arrays.md",
-    "DSA/DSA sheet.md",
-    "Application Tracker.md",
-    "DSA/5. Linked List.md",
-    "DSA/4. Binary Search.md",
-    "DSA/3. Hashing.md",
-    "DSA/2. Strings.md",
-    "DSA/12. Dynamic Programming.md",
-    "adfknslk.md",
-    "SDE switch tracker.md",
-    "new base.base",
-    "DSA/6. Stacks.md",
+    "leetcode-dsa-AI/Dynamic Programming/1D DP.md",
+    "Clippings/Top 13 Microservices Interview Questions Answered.md",
+    "Excalidraw/graph_1.md",
+    "Excalidraw/dfs_1.excalidraw.md",
+    "Excalidraw/BFS_1excalidraw.md",
     "Excalidraw/Design_ATM_LLD.md",
-    "DSA/18. Design Problems.md",
-    "DSA/19. Critical Patterns.md",
+    "Excalidraw/Drawing 2026-11-08 14.22.23.excalidraw.md",
+    "Excalidraw/Drawing 2026-11-18 21.39.31.excalidraw.md",
+    "Excalidraw/Drawing 2026-11-08 16.44.56.excalidraw.md",
+    "Excalidraw/Drawing 2026-11-21 22.26.59.excalidraw.md",
+    "DSA/Dynamic Programming.md",
+    "DB migration.md",
+    "Clippings",
+    "Untitled.md",
+    "Everything Java.md",
+    "IMP links.md",
+    "Office neovim config.md",
+    "Preparation resource list.md",
+    "Daily TODOs.md",
+    "DSA/Graph.md",
+    "leetcode-dsa-AI/Dynamic Programming/2D DP Problems.md",
+    "leetcode-dsa-AI/Questions.md",
+    "AI Review Guide.md",
+    "test.canvas",
+    "Switch.md",
+    "New questions by opus 5.5.md",
+    "Currently studying.md",
+    "System Design/HLD drawings/instagram.excalidraw.md",
+    "DSA",
+    "leetcode-dsa-AI/Untitled",
+    "leetcode-dsa-AI/Graph",
+    "leetcode-dsa-AI/Dynamic Programming",
+    "Pasted image 20260808121832.png",
+    "leetcode-dsa/Stack/20_valid_parenthesis.java",
+    "leetcode-dsa/Stack",
+    "leetcode-dsa-AI",
+    "new base.base",
     "System Design/Topics",
-    "Java",
-    "DSA",
     "Excalidraw/1. Design ATM 2026-05-27 11.36.37.excalidraw.svg",
-    "DSA",
-    "System Design/excalidraw diagrams",
-    "Excalidraw",
     "DSA/Screenshot 2025-03-31 at 4.25.13 PM.png",
-    "Untitled 1.base",
-    "DSA",
-    "lc.sh",
     "timepass.canvas",
     "Pasted Image 20250802141827_312.png",
     "Diagram.svg",

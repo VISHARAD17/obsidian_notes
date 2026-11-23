@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 ### Singapore
 - **Grab** -- not much as of now, requires AI and GO [career portal](https://www.grab.careers/en/jobs/) delivery, ride, fintech app, head quarter in singapore
 

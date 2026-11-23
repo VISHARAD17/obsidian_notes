@@ -112,6 +112,83 @@
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.17.1",
     "libraryItems": [
       {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "FD3QV1BM1achBjfvbqbaG",
+            "type": "ellipse",
+            "x": -230.90371851590163,
+            "y": 314.6311231989905,
+            "width": 28.326776268470553,
+            "height": 25.419414109088905,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "#d2bab0",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "1FunQLaWLGlT45WxFuQ5o"
+            ],
+            "frameId": null,
+            "index": "b0j",
+            "roundness": null,
+            "seed": 1558809093,
+            "version": 112,
+            "versionNonce": 1824033989,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1795280690558,
+            "link": null,
+            "locked": false
+          },
+          {
+            "id": "g8Y4r3sa",
+            "type": "text",
+            "x": -222.93621528116404,
+            "y": 319.3478070691799,
+            "width": 8.399993896484375,
+            "height": 18.4,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "#b2f2bb",
+            "fillStyle": "solid",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "1FunQLaWLGlT45WxFuQ5o"
+            ],
+            "frameId": null,
+            "index": "b0k",
+            "roundness": null,
+            "seed": 294912357,
+            "version": 12,
+            "versionNonce": 1115115019,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1795280690558,
+            "link": null,
+            "locked": false,
+            "text": "2",
+            "rawText": "2",
+            "fontSize": 16,
+            "fontFamily": 7,
+            "textAlign": "center",
+            "verticalAlign": "top",
+            "containerId": null,
+            "originalText": "2",
+            "autoResize": true,
+            "lineHeight": 1.15
+          }
+        ],
+        "id": "2X2bTS8bUO2bIXousi73x",
+        "created": 1795280695311
+      },
+      {
         "id": "HILWA9UqXv3mSOYXGI1If",
         "status": "unpublished",
         "elements": [
