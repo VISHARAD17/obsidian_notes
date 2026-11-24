@@ -11,10 +11,15 @@
             "id": "cd0ac3301c81a6cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA/Dynamic Programming.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Dynamic Programming"
             }
           }
         ]
@@ -76,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "a4d712a6ec2540e7",
@@ -121,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSA/1. Arrays.md",
+                "file": "DSA/Dynamic Programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. Arrays"
+              "title": "Outline"
             }
           },
           {
@@ -136,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-11-18 21.39.31.excalidraw.md",
+                "file": "DSA/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,15 +156,15 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hide-folders:Show hidden folders": false,
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
@@ -170,54 +176,54 @@
   },
   "active": "cd0ac3301c81a6cc",
   "lastOpenFiles": [
-    "leetcode-dsa-AI/Dynamic Programming/1D DP.md",
-    "Clippings/Top 13 Microservices Interview Questions Answered.md",
-    "Excalidraw/graph_1.md",
-    "Excalidraw/dfs_1.excalidraw.md",
-    "Excalidraw/BFS_1excalidraw.md",
-    "Excalidraw/Design_ATM_LLD.md",
-    "Excalidraw/Drawing 2026-11-08 14.22.23.excalidraw.md",
-    "Excalidraw/Drawing 2026-11-18 21.39.31.excalidraw.md",
-    "Excalidraw/Drawing 2026-11-08 16.44.56.excalidraw.md",
-    "Excalidraw/Drawing 2026-11-21 22.26.59.excalidraw.md",
     "DSA/Dynamic Programming.md",
-    "DB migration.md",
-    "Clippings",
-    "Untitled.md",
-    "Everything Java.md",
-    "IMP links.md",
-    "Office neovim config.md",
-    "Preparation resource list.md",
-    "Daily TODOs.md",
-    "DSA/Graph.md",
-    "leetcode-dsa-AI/Dynamic Programming/2D DP Problems.md",
-    "leetcode-dsa-AI/Questions.md",
-    "AI Review Guide.md",
+    "public/tags/index-og-image.webp",
+    "public/tags/42-style-og-image.webp",
+    "public/tags/todo-og-image.webp",
+    "public/tags/clippings-og-image.webp",
+    "public/leetcode-dsa-ai/graph/index-og-image.webp",
+    "public/leetcode-dsa-ai/dynamic-programming/index-og-image.webp",
+    "public/leetcode-dsa-ai/index-og-image.webp",
+    "public/dsa/index-og-image.webp",
+    "public/clippings/index-og-image.webp",
+    "public/leetcode-dsa-ai/todo-og-image.webp",
+    "public/static/giscus/light.css",
+    "public/static/giscus/dark.css",
+    "public/static/giscus",
+    "public/static/contentIndex.json",
+    "public/index.xml",
+    "public/favicon.ico",
+    "public/CNAME",
+    "public/static/encryptedContentIndex.json",
+    "public/sitemap.xml",
+    "public/404.html",
+    "index.md",
+    "node_modules/@img/sharp-libvips-darwin-arm64/README.md",
+    "node_modules/@esbuild/darwin-arm64/README.md",
+    "node_modules/@changesets/write/node_modules/prettier/README.md",
+    "node_modules/@lucide/icons/README.md",
+    "node_modules/@changesets/apply-release-plan/node_modules/prettier/README.md",
+    "node_modules/@quartz-community/bases-page/README.md",
+    "node_modules/@quartz-community/bases-page/CHANGELOG.md",
+    "node_modules/cliui/node_modules/ansi-regex/readme.md",
+    "node_modules/@manypkg/get-packages/node_modules/@changesets/types/README.md",
+    "node_modules/@manypkg/get-packages/node_modules/@changesets/types/CHANGELOG.md",
+    "node_modules/read-yaml-file/node_modules/js-yaml/README.md",
+    "node_modules/@changesets/config/README.md",
+    "node_modules/@manypkg/find-root/node_modules/@types/node/README.md",
+    "node_modules/@changesets/changelog-git/CHANGELOG.md",
+    "node_modules/@quartz-community/syntax-highlighting/README.md",
+    "node_modules/@quartz-community/syntax-highlighting/CHANGELOG.md",
+    "node_modules/@changesets/apply-release-plan/README.md",
+    "node_modules/@changesets/apply-release-plan/CHANGELOG.md",
+    "node_modules/@changesets/read/README.md",
+    "node_modules/@changesets/read/CHANGELOG.md",
+    "node_modules/gray-matter/node_modules/js-yaml/README.md",
+    "node_modules/@parcel/watcher/node_modules/picomatch/README.md",
+    "node_modules/@changesets/errors/README.md",
+    "node_modules/@changesets/errors/CHANGELOG.md",
     "test.canvas",
-    "Switch.md",
-    "New questions by opus 5.5.md",
-    "Currently studying.md",
-    "System Design/HLD drawings/instagram.excalidraw.md",
-    "DSA",
-    "leetcode-dsa-AI/Untitled",
-    "leetcode-dsa-AI/Graph",
-    "leetcode-dsa-AI/Dynamic Programming",
-    "Pasted image 20260808121832.png",
-    "leetcode-dsa/Stack/20_valid_parenthesis.java",
-    "leetcode-dsa/Stack",
-    "leetcode-dsa-AI",
-    "new base.base",
-    "System Design/Topics",
-    "Excalidraw/1. Design ATM 2026-05-27 11.36.37.excalidraw.svg",
-    "DSA/Screenshot 2025-03-31 at 4.25.13 PM.png",
     "timepass.canvas",
-    "Pasted Image 20250802141827_312.png",
-    "Diagram.svg",
-    "Excalidraw/svg/Res_Amazon-Simple-Queue-Service_Queue_48.svg",
-    "Excalidraw/svg/Res_Amazon-ElastiCache_Cache-Node_48.svg",
-    "Excalidraw/svg/AWS-Cloud_32_Dark.svg",
-    "Excalidraw/svg/Arch_Elastic-Load-Balancing_48.svg",
-    "Excalidraw/svg/Arch_Amazon-DocumentDB_48.svg",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "Untitled 3.canvas"
